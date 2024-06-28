@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 156 156">
+  <defs>
+    <clipPath id="clippath">
+      <rect x="1.42" y="15.96" width="153.19" height="124.09" rx="26.04" ry="26.04" style="fill: none; stroke-width: 0px;"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="68.11" y1="75.6" x2="68.11" y2="59.74" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2e2d2d"/>
+      <stop offset="1" stop-color="#2a2b2a"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_2-2" data-name="Layer 2">
+    <g>
+      <g style="clip-path: url(#clippath);">
+        <image width="1024" height="1024" transform="scale(.15)" xlink:href="../../../../Downloads/101_idesofideas_flat_icon_minimalist_design_for_iphone_app_of_a_d77301b7-ccad-43b1-b1f1-b8a68768b3f5.png"/>
+      </g>
+      <circle cx="89.71" cy="67.67" r="7.93" style="fill: #fff; stroke-width: 0px;"/>
+      <path d="m65.49,83.16l1.56,4.23c.07.2.36.19.42-.01l1.28-4.22h-3.26Z" style="fill: #fff; stroke-width: 0px;"/>
+      <path d="m68.75,83.16l1.56,4.23c.07.2.36.19.42-.01l1.28-4.22h-3.26Z" style="fill: #fff; stroke-width: 0px;"/>
+      <path d="m72.01,83.16l1.56,4.23c.07.2.36.19.42-.01l1.28-4.22h-3.26Z" style="fill: #fff; stroke-width: 0px;"/>
+      <path d="m75.26,83.16l1.56,4.23c.07.2.36.19.42-.01l1.28-4.22h-3.26Z" style="fill: #fff; stroke-width: 0px;"/>
+      <path d="m78.52,83.16l1.56,4.23c.07.2.36.19.42-.01l1.28-4.22h-3.26Z" style="fill: #fff; stroke-width: 0px;"/>
+      <path d="m81.77,83.16l1.56,4.23c.07.2.36.19.42-.01l1.28-4.22h-3.26Z" style="fill: #fff; stroke-width: 0px;"/>
+      <path d="m85.03,83.16l1.56,4.23c.07.2.36.19.42-.01l1.28-4.22h-3.26Z" style="fill: #fff; stroke-width: 0px;"/>
+      <path d="m88.28,83.16l1.56,4.23c.07.2.36.19.42-.01l1.28-4.22h-3.26Z" style="fill: #fff; stroke-width: 0px;"/>
+      <path d="m76.04,67.68c0,.12,0,.24-.02.36-.18,4.21-3.65,7.57-7.92,7.57s-7.73-3.36-7.91-7.57c-.02-.12-.02-.24-.02-.36,0-4.36,3.52-7.91,7.86-7.94h.06c4.38,0,7.94,3.56,7.94,7.94Z" style="fill: url(#linear-gradient); stroke-width: 0px;"/>
+      <path d="m76.43,67.66c0,.12,0,.25-.02.38h-8.35v-8.7h.04c4.59,0,8.33,3.73,8.33,8.33Z" style="fill: #212121; stroke-width: 0px;"/>
+      <path d="m88.99,76.37v-17.7h8.6c.02.25-.01.52.02.76,2.15,14.97-2.45,20.57-8.62,16.93Z" style="fill: #1a1919; stroke-width: 0px;"/>
+      <path d="m80.62,59.44c.05-.24,0-.52.02-.76h8.35v17.7h-.04c-7.54,2.03-10.56-6.06-8.33-16.94Z" style="fill: #222122; stroke-width: 0px;"/>
+      <rect x="89" y="93.76" width="8.62" height="14.81" style="fill: #1a1a19; stroke-width: 0px;"/>
+      <rect x="68.06" y="93.76" width="9.96" height="14.81" style="fill: #222120; stroke-width: 0px;"/>
+      <rect x="78.45" y="93.76" width=".07" height="14.81" style="fill: #222120; stroke-width: 0px;"/>
+      <rect x="59.28" y="93.76" width="8.82" height="14.81" style="fill: #2e2d2d; stroke-width: 0px;"/>
+      <rect x="78.45" y="93.76" width="10.55" height="14.81" style="fill: #232221; stroke-width: 0px;"/>
+      <polygon points="78.3 113.27 78.02 108.24 78.02 93.76 78.45 93.76 78.45 108.23 78.3 113.27" style="fill: #373636; stroke-width: 0px;"/>
+      <polygon points="74.15 68.03 68.06 68.03 68.11 77.32 76.43 76.37 76.4 68.03 74.15 68.03" style="fill: #222121; stroke-width: 0px;"/>
+    </g>
+  </g>
+</svg>
