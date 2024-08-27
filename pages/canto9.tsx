@@ -73,7 +73,7 @@ const Canto9 = () => {
   Perhaps to a worse meaning than he had.<br />
   <br />
   “Into this bottom of the doleful conch<br />
-  Doth any e’er descend from the first grade,<br />
+  Doth any e&apos;er descend from the first grade,<br />
   Which for its pain has only hope cut off?”<br />
   <br />
   This question put I; and he answered me:<br />
@@ -98,7 +98,7 @@ const Canto9 = () => {
   <br />
   And more he said, but not in mind I have it;<br />
   Because mine eye had altogether drawn me<br />
-  Tow’rds the high tower with the red—flaming summit,<br />
+  Tow&apos;rds the high tower with the red—flaming summit,<br />
   <br />
   Where in a moment saw I swift uprisen<br />
   The three infernal Furies stained with blood,<br />
@@ -158,7 +158,7 @@ const Canto9 = () => {
   <br />
   More than a thousand ruined souls I saw,<br />
   Thus fleeing from before one who on foot<br />
-  Was passing o’er the Styx with soles unwet<br />
+  Was passing o&apos;er the Styx with soles unwet<br />
   <br />
   From off his face he fanned that unctuous air,<br />
   Waving his left hand oft in front of him,<br />
@@ -189,7 +189,7 @@ const Canto9 = () => {
   Of one whom other care constrains and goads<br />
   <br />
   Than that of him who in his presence is;<br />
-  And we our feet directed tow’rds the city,<br />
+  And we our feet directed tow&apos;rds the city,<br />
   After those holy words all confident.<br />
   <br />
   Within we entered without any contest;<br />

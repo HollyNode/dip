@@ -71,7 +71,7 @@ const Canto4 = () => {
   the poet, who was deathly pale, began;<br />
   “I shall go first and you will follow me.”<br />
   <br />
-  But I, who’d seen the change in his complexion,<br />
+  But I, who&apos;d seen the change in his complexion,<br />
   said: “How shall I go on if you are frightened,<br />
   you who have always helped dispel my doubts?”<br />
   <br />
@@ -93,10 +93,10 @@ const Canto4 = () => {
   <br />
   The kindly master said: “Do you not ask<br />
   who are these spirits whom you see before you?<br />
-  I’d have you know, before you go ahead,<br />
+  I&apos;d have you know, before you go ahead,<br />
   <br />
   they did not sin; and yet, though they have merits,<br />
-  that’s not enough, because they lacked baptism,<br />
+  that&apos;s not enough, because they lacked baptism,<br />
   the portal of the faith that you embrace.<br />
   <br />
   And if they lived before Christianity,<br />
@@ -116,7 +116,7 @@ const Canto4 = () => {
   of that belief which vanquishes all errors,<br />
   <br />
   “did any ever go—by his own merit<br />
-  or others’—from this place toward blessedness?”<br />
+  or others&apos;—from this place toward blessedness?”<br />
   And he, who understood my covert speech,<br />
   <br />
   replied: “I was new—entered on this state<br />
@@ -153,7 +153,7 @@ const Canto4 = () => {
   <br />
   And he to me: “The honor of their name,<br />
   which echoes up above within your life,<br />
-  gains Heaven’s grace, and that advances them.”<br />
+  gains Heaven&apos;s grace, and that advances them.”<br />
   <br />
   Meanwhile there was a voice that I could hear:<br />
   “Pay honor to the estimable poet;<br />
@@ -245,7 +245,7 @@ const Canto4 = () => {
   <br />
   I cannot here describe them all in full;<br />
   my ample theme impels me onward so:<br />
-  what’s told is often less than the event.<br />
+  what&apos;s told is often less than the event.<br />
   <br />
   The company of six divides in two;<br />
   my knowing guide leads me another way,<br />

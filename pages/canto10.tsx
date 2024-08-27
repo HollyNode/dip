@@ -97,7 +97,7 @@ const Canto10 = () => {
   <br />
   I had already fixed mine eyes on his,<br />
   And he uprose erect with breast and front<br />
-  E’en as if Hell he had in great despite.<br />
+  E&apos;en as if Hell he had in great despite.<br />
   <br />
   And with courageous hands and prompt my Leader<br />
   Thrust me between the sepulchres towards him,<br />
@@ -180,7 +180,7 @@ const Canto10 = () => {
   Which has entangled my conceptions here.<br />
   <br />
   It seems that you can see, if I hear rightly,<br />
-  Beforehand whatsoe’er time brings with it,<br />
+  Beforehand whatsoe&apos;er time brings with it,<br />
   And in the present have another mode.”<br />
   <br />
   “We see, like those who have imperfect sight,<br />
@@ -225,7 +225,7 @@ const Canto10 = () => {
   <br />
   “When thou shalt be before the radiance sweet<br />
   Of her whose beauteous eyes all things behold,<br />
-  From her thou’lt know the journey of thy life.”<br />
+  From her thou&apos;lt know the journey of thy life.”<br />
   <br />
   Unto the left hand then he turned his feet;<br />
   We left the wall, and went towards the middle,<br />

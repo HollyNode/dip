@@ -84,13 +84,13 @@ const Canto11 = () => {
     Injury is the end; and all such end<br />
     Either by force or fraud afflicteth others.<br />
     <br />
-    But because fraud is man’s peculiar vice,<br />
+    But because fraud is man&apos;s peculiar vice,<br />
     More it displeases God; and so stand lowest<br />
     The fraudulent, and greater dole assails them.<br />
     <br />
     All the first circle of the Violent is;<br />
     But since force may be used against three persons,<br />
-    In three rounds ’tis divided and constructed.<br />
+    In three rounds &apos;tis divided and constructed.<br />
     <br />
     To God, to ourselves, and to our neighbour can we<br />
     Use force; I say on them and on their things,<br />
@@ -138,7 +138,7 @@ const Canto11 = () => {
     <br />
     Hence in the smallest circle, where the point is<br />
     Of the Universe, upon which Dis is seated,<br />
-    Whoe’er betrays for ever is consumed.”<br />
+    Whoe&apos;er betrays for ever is consumed.”<br />
     <br />
     And I: “My Master, clear enough proceeds<br />
     Thy reasoning, and full well distinguishes<br />
@@ -190,7 +190,7 @@ const Canto11 = () => {
     <br />
     That this your art as far as possible<br />
     Follows, as the disciple doth the master;<br />
-    So that your art is, as it were, God’s grandchild.<br />
+    So that your art is, as it were, God&apos;s grandchild.<br />
     <br />
     From these two, if thou bringest to thy mind<br />
     Genesis at the beginning, it behoves<br />

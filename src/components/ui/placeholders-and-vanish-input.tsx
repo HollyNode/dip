@@ -33,14 +33,14 @@ export function PlaceholdersAndVanishInput({
   useEffect(() => {
     startAnimation();
     document.addEventListener("visibilitychange", handleVisibilityChange);
-
+  
     return () => {
       if (intervalRef.current) {
         clearInterval(intervalRef.current);
       }
       document.removeEventListener("visibilitychange", handleVisibilityChange);
     };
-  }, [placeholders]);
+  }, [startAnimation, handleVisibilityChange]);
 
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const newDataRef = useRef<any[]>([]);

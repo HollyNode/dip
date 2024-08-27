@@ -92,7 +92,7 @@ const Canto14 = () => {
     as snow descends on alps when no wind blows.<br />
     <br />
     Just like the flames that Alexander saw<br />
-    in India’s hot zones, when fires fell,<br />
+    in India&apos;s hot zones, when fires fell,<br />
     intact and to the ground, on his battalions,<br />
     <br />
     for which—wisely—he had his soldiers tramp<br />
@@ -113,7 +113,7 @@ const Canto14 = () => {
     <br />
     who is that giant there, who does not seem<br />
     to heed the singeing—he who lies and scorns<br />
-    and scowls, he whom the rains can’t seem to soften?”<br />
+    and scowls, he whom the rains can&apos;t seem to soften?”<br />
     <br />
     And he himself, on noticing that I<br />
     was querying my guide about him, cried:<br />
@@ -125,7 +125,7 @@ const Canto14 = () => {
     <br />
     or if he tire the others, one by one,<br />
     in Mongibello, at the sooty forge,<br />
-    while bellowing: ‘O help, good Vulcan, help!’—<br />
+    while bellowing: &apos;O help, good Vulcan, help!’—<br />
     <br />
     just as he did when there was war at Phlegra—<br />
     and casts his shafts at me with all his force,<br />
@@ -135,7 +135,7 @@ const Canto14 = () => {
     as I had never heard him use before:<br />
     “O Capaneus, for your arrogance<br />
     <br />
-    that is not quenched, you’re punished all the more:<br />
+    that is not quenched, you&apos;re punished all the more:<br />
     no torture other than your own madness<br />
     could offer pain enough to match your wrath.”<br />
     <br />
@@ -148,7 +148,7 @@ const Canto14 = () => {
     sit well as ornaments upon his chest.<br />
     <br />
     Now follow me and—take care—do not set<br />
-    your feet upon the sand that’s burning hot,<br />
+    your feet upon the sand that&apos;s burning hot,<br />
     but always keep them back, close to the forest.”<br />
     <br />
     In silence we had reached a place where flowed<br />
@@ -191,7 +191,7 @@ const Canto14 = () => {
     who stands erect—his back turned toward Damietta—<br />
     and looks at Rome as if it were his mirror.<br />
     <br />
-    The Old Man’s head is fashioned of fine gold,<br />
+    The Old Man&apos;s head is fashioned of fine gold,<br />
     the purest silver forms his arms and chest,<br />
     but he is made of brass down to the cleft;<br />
     <br />
@@ -201,15 +201,15 @@ const Canto14 = () => {
     <br />
     Each part of him, except the gold, is cracked;<br />
     and down that fissure there are tears that drip;<br />
-    when gathered, they pierce through that cavern’s floor<br />
+    when gathered, they pierce through that cavern&apos;s floor<br />
     <br />
     and, crossing rocks into this valley, form<br />
     the Acheron and Styx and Phlegethon;<br />
     and then they make their way down this tight channel,<br />
     <br />
-    and at the point past which there’s no descent,<br />
+    and at the point past which there&apos;s no descent,<br />
     they form Cocytus; since you are to see<br />
-    what that pool is, I’ll not describe it here.”<br />
+    what that pool is, I&apos;ll not describe it here.”<br />
     <br />
     And I asked him: “But if the rivulet<br />
     must follow such a course down from our world,<br />
@@ -223,11 +223,11 @@ const Canto14 = () => {
     so that, if something new appears to us,<br />
     it need not bring such wonder to your face.”<br />
     <br />
-    And I again: “Master, where’s Phlegethon<br />
+    And I again: “Master, where&apos;s Phlegethon<br />
     and where is Lethe? You omit the second<br />
     and say this rain of tears has formed the first.”<br />
     <br />
-    “I’m pleased indeed,” he said, “with all your questions;<br />
+    “I&apos;m pleased indeed,” he said, “with all your questions;<br />
     yet one of them might well have found its answer<br />
     already—when you saw the red stream boiling.<br />
     <br />

@@ -124,7 +124,7 @@ const Canto3 = () => {
   That of all pause it seemed to me indignant;<br />
   <br />
   And after it there came so long a train<br />
-  Of people, that I ne’er would have believed<br />
+  Of people, that I ne&apos;er would have believed<br />
   That ever Death so many had undone.<br />
   <br />
   When some among them I had recognised,<br />
@@ -144,7 +144,7 @@ const Canto3 = () => {
   By the disgusting worms was gathered up.<br />
   <br />
   And when to gazing farther I betook me,<br />
-  People I saw on a great river’s bank;<br />
+  People I saw on a great river&apos;s bank;<br />
   Whence said I: “Master, now vouchsafe to me,<br />
   <br />
   That I may know who these are, and what law<br />
@@ -215,7 +215,7 @@ const Canto3 = () => {
   “All those who perish in the wrath of God<br />
   Here meet together out of every land;<br />
   <br />
-  And ready are they to pass o’er the river,<br />
+  And ready are they to pass o&apos;er the river,<br />
   Because celestial Justice spurs them on,<br />
   So that their fear is turned into desire.<br />
   <br />

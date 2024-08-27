@@ -89,7 +89,7 @@ const Canto2 = () => {
   <br />
   Thither went afterwards the Chosen Vessel,<br />
   To bring back comfort thence unto that Faith,<br />
-  Which of salvation’s way is the beginning.<br />
+  Which of salvation&apos;s way is the beginning.<br />
   <br />
   But I, why thither come, or who concedes it?<br />
   I not Aeneas am, I am not Paul,<br />
@@ -97,7 +97,7 @@ const Canto2 = () => {
   <br />
   Therefore, if I resign myself to come,<br />
   I fear the coming may be ill-advised;<br />
-  Thou’rt wise, and knowest better than I speak.”<br />
+  Thou&apos;rt wise, and knowest better than I speak.”<br />
   <br />
   And as he is, who unwills what he willed,<br />
   And by new thoughts doth his intention change,<br />
@@ -116,7 +116,7 @@ const Canto2 = () => {
   As false sight doth a beast, when he is shy.<br />
   <br />
   That thou mayst free thee from this apprehension,<br />
-  I’ll tell thee why I came, and what I heard<br />
+  I&apos;ll tell thee why I came, and what I heard<br />
   At the first moment when I grieved for thee.<br />
   <br />
   Among those was I who are in suspense,<br />
@@ -127,7 +127,7 @@ const Canto2 = () => {
   And she began to say, gentle and low,<br />
   With voice angelical, in her own language:<br />
   <br />
-  ‘O spirit courteous of Mantua,<br />
+  &apos;O spirit courteous of Mantua,<br />
   Of whom the fame still in the world endures,<br />
   And shall endure, long-lasting as the world;<br />
   <br />
@@ -148,24 +148,24 @@ const Canto2 = () => {
   Love moved me, which compelleth me to speak.<br />
   <br />
   When I shall be in presence of my Lord,<br />
-  Full often will I praise thee unto him.’<br />
+  Full often will I praise thee unto him.&apos;<br />
   <br />
   Then paused she, and thereafter I began:<br />
-  ‘O Lady of virtue, thou alone through whom<br />
+  &apos;O Lady of virtue, thou alone through whom<br />
   The human race exceedeth all contained<br />
   <br />
   Within the heaven that has the lesser circles,<br />
   So grateful unto me is thy commandment,<br />
-  To obey, if ’twere already done, were late;<br />
+  To obey, if &apos;twere already done, were late;<br />
   <br />
-  No farther need’st thou ope to me thy wish.<br />
+  No farther need&apos;st thou ope to me thy wish.<br />
   But the cause tell me why thou dost not shun<br />
   The here descending down into this centre,<br />
   <br />
-  From the vast place thou burnest to return to.’<br />
-  ‘Since thou wouldst fain so inwardly discern,<br />
-  Briefly will I relate,’ she answered me,<br />
-  ‘Why I am not afraid to enter here.<br />
+  From the vast place thou burnest to return to.&apos;<br />
+  &apos;Since thou wouldst fain so inwardly discern,<br />
+  Briefly will I relate,&apos; she answered me,<br />
+  &apos;Why I am not afraid to enter here.<br />
   <br />
   Of those things only should one be afraid<br />
   Which have the power of doing others harm;<br />
@@ -200,7 +200,7 @@ const Canto2 = () => {
   As I, after such words as these were uttered,<br />
   Came hither downward from my blessed seat,<br />
   Confiding in thy dignified discourse,<br />
-  Which honours thee, and those who’ve listened to it.’<br />
+  Which honours thee, and those who&apos;ve listened to it.&apos;<br />
   <br />
   After she thus had spoken unto me,<br />
   Weeping, her shining eyes she turned away;<br />
@@ -208,7 +208,7 @@ const Canto2 = () => {
   <br />
   And unto thee I came, as she desired;<br />
   I have delivered thee from that wild beast,<br />
-  Which barred the beautiful mountain’s short ascent.<br />
+  Which barred the beautiful mountain&apos;s short ascent.<br />
   <br />
   What is it, then? Why, why dost thou delay?<br />
   Why is such baseness bedded in thy heart?<br />

@@ -76,7 +76,7 @@ const Canto5 = () => {
   Leaving the practice of so great an office,<br />
   <br />
   “Look how thou enterest, and in whom thou trustest;<br />
-  Let not the portal’s amplitude deceive thee.”<br />
+  Let not the portal&apos;s amplitude deceive thee.”<br />
   And unto him my Guide: “Why criest thou too?<br />
   <br />
   Do not impede his journey fate-ordained;<br />
@@ -185,7 +185,7 @@ const Canto5 = () => {
   <br />
   Love, that on gentle heart doth swiftly seize,<br />
   Seized this man for the person beautiful<br />
-  That was ta’en from me, and still the mode offends me.<br />
+  That was ta&apos;en from me, and still the mode offends me.<br />
   <br />
   Love, that exempts no one beloved from loving,<br />
   Seized me with pleasure of this man so strongly,<br />
@@ -229,7 +229,7 @@ const Canto5 = () => {
   <br />
   When as we read of the much-longed-for smile<br />
   Being by such a noble lover kissed,<br />
-  This one, who ne’er from me shall be divided,<br />
+  This one, who ne&apos;er from me shall be divided,<br />
   <br />
   Kissed me upon the mouth all palpitating.<br />
   Galeotto was the book and he who wrote it.<br />

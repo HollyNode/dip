@@ -61,7 +61,7 @@ const Canto13 = () => {
     <br />
     Such tangled thickets have not, nor so dense,<br />
     Those savage wild beasts, that in hatred hold<br />
-    ‘Twixt Cecina and Corneto the tilled places.<br />
+    &apos;Twixt Cecina and Corneto the tilled places.<br />
     <br />
     There do the hideous Harpies make their nests,<br />
     Who chased the Trojans from the Strophades,<br />
@@ -128,7 +128,7 @@ const Canto13 = () => {
     That I a little to discourse am tempted.<br />
     <br />
     I am the one who both keys had in keeping<br />
-    Of Frederick’s heart, and turned them to and fro<br />
+    Of Frederick&apos;s heart, and turned them to and fro<br />
     So softly in unlocking and in locking,<br />
     <br />
     That from his secrets most men I withheld;<br />
@@ -160,7 +160,7 @@ const Canto13 = () => {
     But speak, and question him, if more may please thee.”<br />
     <br />
     Whence I to him: “Do thou again inquire<br />
-    Concerning what thou thinks’t will satisfy me;<br />
+    Concerning what thou thinks&apos;t will satisfy me;<br />
     For I cannot, such pity is in my heart.”<br />
     <br />
     Therefore he recommenced: “So may the man<br />
@@ -169,7 +169,7 @@ const Canto13 = () => {
     <br />
     To tell us in what way the soul is bound<br />
     Within these knots; and tell us, if thou canst<br />
-    If any from such members e’er is freed.”<br />
+    If any from such members e&apos;er is freed.”<br />
     <br />
     Then blew the trunk amain, and afterward<br />
     The wind was into such a voice converted:<br />
@@ -189,7 +189,7 @@ const Canto13 = () => {
     <br />
     Like others for our spoils shall we return;<br />
     But not that any one may them revest,<br />
-    For ’tis not just to have what one casts off.<br />
+    For &apos;tis not just to have what one casts off.<br />
     <br />
     Here we shall drag them, and along the dismal<br />
     Forest our bodies shall suspended be,<br />
@@ -227,7 +227,7 @@ const Canto13 = () => {
     And led me to the bush, that all in vain<br />
     Was weeping from its bloody lacerations.<br />
     <br />
-    “O Jacopo,” it said,”of Sant’ Andrea,<br />
+    “O Jacopo,” it said,”of Sant&apos; Andrea,<br />
     What helped it thee of me to make a screen ?<br />
     What blame have I in thy nefarious life ?”<br />
     <br />

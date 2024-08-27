@@ -65,7 +65,7 @@ const Canto8 = () => {
   <br />
   And he to me: “Above the filthy waters<br />
   you can already see what waits for us,<br />
-  if it’s not hid by vapors from the marsh.”<br />
+  if it&apos;s not hid by vapors from the marsh.”<br />
   <br />
   Bowstring has not thrust from itself an arrow<br />
   that ever rushed as swiftly through the air<br />
@@ -76,7 +76,7 @@ const Canto8 = () => {
   I heard him howl: “Now you are caught, foul soul!”<br />
   <br />
   “O Phlegyas, Phlegyas, such a shout is useless<br />
-  this time,” my master said; “we’re yours no longer<br />
+  this time,” my master said; “we&apos;re yours no longer<br />
   than it will take to cross the muddy sluice.”<br />
   <br />
   And just as one who hears some great deception<br />
@@ -95,13 +95,13 @@ const Canto8 = () => {
   before me stood a sinner thick with mud,<br />
   saying: “Who are you, come before your time?”<br />
   <br />
-  And I to him: “I’ve come, but I don’t stay;<br />
+  And I to him: “I&apos;ve come, but I don&apos;t stay;<br />
   but who are you, who have become so ugly?”<br />
-  He answered: “You can see—I’m one who weeps.”<br />
+  He answered: “You can see—I&apos;m one who weeps.”<br />
   <br />
   And I to him: “In weeping and in grieving,<br />
   accursed spirit, may you long remain;<br />
-  though you’re disguised by filth, I know your name.”<br />
+  though you&apos;re disguised by filth, I know your name.”<br />
   <br />
   Then he stretched both his hands out toward the boat,<br />
   at which my master quickly shoved him back,<br />
@@ -116,12 +116,12 @@ const Canto8 = () => {
   and so his shade down here is hot with fury.<br />
   <br />
   How many up above now count themselves<br />
-  great kings, who’ll wallow here like pigs in slime,<br />
+  great kings, who&apos;ll wallow here like pigs in slime,<br />
   leaving behind foul memories of their crimes!”<br />
   <br />
   And I: “O master, I am very eager<br />
   to see that spirit soused within this broth<br />
-  before we’ve made our way across the lake.”<br />
+  before we&apos;ve made our way across the lake.”<br />
   <br />
   And he to me: “Before the other shore<br />
   comes into view, you shall be satisfied;<br />
@@ -155,7 +155,7 @@ const Canto8 = () => {
   that are the moats of this despondent land:<br />
   the ramparts seemed to me to be of iron.<br />
   <br />
-  But not before we’d ranged in a wide circuit<br />
+  But not before we&apos;d ranged in a wide circuit<br />
   did we approach a place where that shrill pilot<br />
   shouted: “Get out; the entrance way is here.”<br />
   <br />
@@ -183,11 +183,11 @@ const Canto8 = () => {
   has given back to me my confidence<br />
   and snatched me from deep danger that had menaced,<br />
   <br />
-  do not desert me when I’m so undone;<br />
+  do not desert me when I&apos;m so undone;<br />
   and if they will not let us pass beyond,<br />
   let us retrace our steps together, quickly.”<br />
   <br />
-  These were my words; the lord who’d led me there<br />
+  These were my words; the lord who&apos;d led me there<br />
   replied: “Forget your fear, no one can hinder<br />
   our passage; One so great has granted it.<br />
   <br />
@@ -204,12 +204,12 @@ const Canto8 = () => {
   ran back into the city, scrambling fast.<br />
   <br />
   And these, our adversaries, slammed the gates<br />
-  in my lord’s face; and he remained outside,<br />
+  in my lord&apos;s face; and he remained outside,<br />
   then, with slow steps, turned back again to me.<br />
   <br />
   His eyes turned to the ground, his brows deprived<br />
   of every confidence, he said with sighs:<br />
-  “See who has kept me from the house of sorrow!’<br />
+  “See who has kept me from the house of sorrow!&apos;<br />
   <br />
   To me he added: “You—though I am vexed—<br />
   must not be daunted; I shall win this contest,<br />

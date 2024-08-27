@@ -54,16 +54,16 @@ I cannot well repeat how there I entered,
 So full was I of slumber at the moment
 In which I had abandoned the true way.
 
-But after I had reached a mountain’s foot,
+But after I had reached a mountain&apos;s foot,
 At that point where the valley terminated,
 Which had with consternation pierced my heart,
 
 Upward I looked, and I beheld its shoulders
-Vested already with that planet’s rays
+Vested already with that planet&apos;s rays
 Which leadeth others right by every road.
 
 Then was the fear a little quieted
-That in my heart’s lake had endured throughout
+That in my heart&apos;s lake had endured throughout
 The night, which I had passed so piteously
 
 And even as he, who, with distressful breath,
@@ -80,7 +80,7 @@ So that the firm foot ever was the lower.
 
 And lo! almost where the ascent began,
 A panther light and swift exceedingly,
-Which with a spotted skin was covered o’er!
+Which with a spotted skin was covered o&apos;er!
 
 And never moved she from before my face,
 Nay, rather did impede so much my way,
@@ -96,7 +96,7 @@ The variegated skin of that wild beast,
 
 The hour of time, and the delicious season;
 But not so much, that did not give me fear
-A lion’s aspect which appeared to me.
+A lion&apos;s aspect which appeared to me.
 
 He seemed as if against me he were coming
 With head uplifted, and with ravenous hunger,
@@ -114,7 +114,7 @@ And as he is who willingly acquires,
 And the time comes that causes him to lose,
 Who weeps in all his thoughts and is despondent,
 
-E’en such made me that beast withouten peace,
+E&apos;en such made me that beast withouten peace,
 Which, coming on against me by degrees
 Thrust me back thither where the sun is silent
 
@@ -124,7 +124,7 @@ Who seemed from long-continued silence hoarse.
 
 When I beheld him in the desert vast,
 “Have pity on me,” unto him I cried,
-“Whiche’er thou art, or shade or real man!”
+“Whiche&apos;er thou art, or shade or real man!”
 
 He answered me: “Not man; man once I was,
 And both my parents were of Lombardy,
@@ -139,7 +139,7 @@ Son of Anchises, who came forth from Troy,
 After that Ilion the superb was burned
 
 But thou, why goest thou back to such annoyance?
-Why climb’st thou not the Mount Delectable
+Why climb&apos;st thou not the Mount Delectable
 Which is the source and cause of every joy?”
 
 Now, art thou that Virgilius and that fountain
@@ -176,7 +176,7 @@ Comes, who shall make her perish in her pain.
 
 He shall not feed on either earth or pelf,
 But upon wisdom, and on love and virtue;
-‘Twixt Feltro and Feltro shall his nation be;
+&apos;Twixt Feltro and Feltro shall his nation be;
 
 Of that low Italy shall he be the saviour,
 On whose account the maid Camilla died,
@@ -196,7 +196,7 @@ Who cry out each one for the second death;
 
 And thou shalt see those who contented are
 Within the fire, because they hope to come,
-Whene’er it may be, to the blessed people;
+Whene&apos;er it may be, to the blessed people;
 
 To whom, then, if thou wishest to ascend,
 A soul shall be for that than I more worthy;

@@ -59,9 +59,9 @@ const Canto12 = () => {
     Smote, on this side of Trent, the Adige,<br />
     Either by earthquake or by failing stay,<br />
     <br />
-    For from the mountain’s top, from which it moved,<br />
+    For from the mountain&apos;s top, from which it moved,<br />
     Unto the plain the cliff is shattered so,<br />
-    Some path ‘twould give to him who was above;<br />
+    Some path &apos;twould give to him who was above;<br />
     <br />
     Even such was the descent of that ravine,<br />
     And on the border of the broken chasm<br />
@@ -72,7 +72,7 @@ const Canto12 = () => {
     Even as one whom anger racks within.<br />
     <br />
     My Sage towards him shouted: “Peradventure<br />
-    Thou think’st that here may be the Duke of Athens,<br />
+    Thou think&apos;st that here may be the Duke of Athens,<br />
     Who in the world above brought death to thee ?<br />
     <br />
     Get thee gone, beast, for this one cometh not<br />
@@ -85,9 +85,9 @@ const Canto12 = () => {
     <br />
     The Minotaur beheld I do the like;<br />
     And he, the wary, cried: “Run to the passage;<br />
-    While he wroth, ’tis well thou shouldst descend.”<br />
+    While he wroth, &apos;tis well thou shouldst descend.”<br />
     <br />
-    Thus down we took our way o’er that discharge<br />
+    Thus down we took our way o&apos;er that discharge<br />
     Of stones, which oftentimes did move themselves<br />
     Beneath my feet, from the unwonted burden.<br />
     <br />
@@ -113,7 +113,7 @@ const Canto12 = () => {
     <br />
     But fix thine eyes below; for draweth near<br />
     The river of blood, within which boiling is<br />
-    Whoe’er by violence doth injure others.”<br />
+    Whoe&apos;er by violence doth injure others.”<br />
     <br />
     O blind cupidity, O wrath insane,<br />
     That spurs us onward so in our short life,<br />
@@ -123,7 +123,7 @@ const Canto12 = () => {
     As one which all the plain encompasses,<br />
     Conformable to what my Guide had said.<br />
     <br />
-    And between this and the embankment’s foot<br />
+    And between this and the embankment&apos;s foot<br />
     Centaurs in file were running, armed with arrows,<br />
     As in the world they used the chase to follow.<br />
     <br />
@@ -157,7 +157,7 @@ const Canto12 = () => {
     <br />
     After he had uncovered his great mouth,<br />
     He said to his companions: “Are you ware<br />
-    That he behind moveth whate’er he touches?<br />
+    That he behind moveth whate&apos;er he touches?<br />
     <br />
     Thus are not wont to do the feet of dead men.”<br />
     And my good Guide, who now was at his breast,<br />
@@ -177,7 +177,7 @@ const Canto12 = () => {
     <br />
     And who may show us where to pass the ford,<br />
     And who may carry this one on his back;<br />
-    For ’tis no spirit that can walk the air.”<br />
+    For &apos;tis no spirit that can walk the air.”<br />
     <br />
     Upon his right breast Chiron wheeled about,<br />
     And said to Nessus: “Turn and do thou guide them,<br />
@@ -208,7 +208,7 @@ const Canto12 = () => {
     Seemed from that boiling stream to issue forth.<br />
     <br />
     A shade he showed us on one side alone,<br />
-    Saying: “He cleft asunder in God’s bosom<br />
+    Saying: “He cleft asunder in God&apos;s bosom<br />
     The heart that still upon the Thames is honoured.”<br />
     <br />
     Then people saw I, who from out the river<br />

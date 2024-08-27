@@ -108,7 +108,7 @@ const Canto7 = () => {
   That there with measure they no spending made.<br />
   <br />
   Clearly enough their voices bark it forth,<br />
-  Whene’er they reach the two points of the circle,<br />
+  Whene&apos;er they reach the two points of the circle,<br />
   Where sunders them the opposite defect.<br />
   <br />
   Clerks those were who no hairy covering<br />
@@ -128,8 +128,8 @@ const Canto7 = () => {
   With the fist closed, and these with tresses shorn.<br />
   <br />
   Ill giving and ill keeping the fair world<br />
-  Have ta’en from them, and placed them in this scuffle;<br />
-  Whate’er it be, no words adorn I for it.<br />
+  Have ta&apos;en from them, and placed them in this scuffle;<br />
+  Whate&apos;er it be, no words adorn I for it.<br />
   <br />
   Now canst thou, Son, behold the transient farce<br />
   Of goods that are committed unto Fortune,<br />
@@ -141,7 +141,7 @@ const Canto7 = () => {
   <br />
   “Master,” I said to him, “now tell me also<br />
   What is this Fortune which thou speakest of,<br />
-  That has the world’s goods so within its clutches?”<br />
+  That has the world&apos;s goods so within its clutches?”<br />
   <br />
   And he to me: “O creatures imbecile,<br />
   What ignorance is this which doth beset you?<br />
@@ -209,18 +209,18 @@ const Canto7 = () => {
   <br />
   Beneath the water people are who sigh<br />
   And make this water bubble at the surface,<br />
-  As the eye tells thee wheresoe’er it turns.<br />
+  As the eye tells thee wheresoe&apos;er it turns.<br />
   <br />
-  Fixed in the mire they say, ‘We sullen were<br />
+  Fixed in the mire they say, &apos;We sullen were<br />
   In the sweet air, which by the sun is gladdened,<br />
   Bearing within ourselves the sluggish reek;<br />
   <br />
-  Now we are sullen in this sable mire.’<br />
+  Now we are sullen in this sable mire.&apos;<br />
   This hymn do they keep gurgling in their throats,<br />
   For with unbroken words they cannot say it.”<br />
   <br />
   Thus we went circling round the filthy fen<br />
-  A great arc ‘twixt the dry bank and the swamp,<br />
+  A great arc &apos;twixt the dry bank and the swamp,<br />
   With eyes turned unto those who gorge the mire;<br />
   <br />
   Unto the foot of a tower we came at last.<br />
