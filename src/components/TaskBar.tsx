@@ -11,16 +11,22 @@ export const TaskBar: React.FC<TaskBarProps> = ({ time }) => {
   const router = useRouter();
   const formattedTime = time.toLocaleTimeString([], { timeStyle: 'short' });
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
 
   const toggleModal = () => setIsModalOpen(!isModalOpen);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    console.log(e.target.value);
+    setSearchQuery(e.target.value);
   };
 
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("submitted");
+    if (searchQuery.trim()) {
+      // Navigate to a search results page or trigger a search function
+      router.push(`/search?query=${encodeURIComponent(searchQuery)}`);
+    } else {
+      console.log("Search query is empty");
+    }
   };
 
   const placeholders = [
@@ -28,7 +34,6 @@ export const TaskBar: React.FC<TaskBarProps> = ({ time }) => {
     "What the deuce is pepe Satan?",
     "Who were Dante's enemies?",
     "Are you looking for a concordance?",
-    
   ];
 
   return (
@@ -46,9 +51,7 @@ export const TaskBar: React.FC<TaskBarProps> = ({ time }) => {
           placeholders={placeholders}
           onChange={handleChange}
           onSubmit={onSubmit}
-         
         />
-        
       </div>
 
       <div className="flex items-center space-x-4">

@@ -82,16 +82,16 @@ const Canto1 = () => {
           So full was I of slumber at the moment<br />
           In which I had abandoned the true way.<br />
           <br />
-          But after I had reached a mountain’s foot,<br />
+          But after I had reached a mountain&apos;s foot,<br />
           At that point where the valley terminated,<br />
           Which had with consternation pierced my heart,<br />
           <br />
           Upward I looked, and I beheld its shoulders<br />
-          Vested already with that planet’s rays<br />
+          Vested already with that planet&apos;s rays<br />
           Which leadeth others right by every road.<br />
           <br />
           Then was the fear a little quieted<br />
-          That in my heart’s lake had endured throughout<br />
+          That in my heart&apos;s lake had endured throughout<br />
           The night, which I had passed so piteously<br />
           <br />
           And even as he, who, with distressful breath,<br />
@@ -108,7 +108,7 @@ const Canto1 = () => {
           <br />
           And lo! almost where the ascent began,<br />
           A panther light and swift exceedingly,<br />
-          Which with a spotted skin was covered o’er!<br />
+          Which with a spotted skin was covered o&apos;er!<br />
           <br />
           And never moved she from before my face,<br />
           Nay, rather did impede so much my way,<br />
@@ -124,7 +124,7 @@ const Canto1 = () => {
           <br />
           The hour of time, and the delicious season;<br />
           But not so much, that did not give me fear<br />
-          A lion’s aspect which appeared to me.<br />
+          A lion&apos;s aspect which appeared to me.<br />
           <br />
           He seemed as if against me he were coming<br />
           With head uplifted, and with ravenous hunger,<br />
@@ -152,7 +152,7 @@ const Canto1 = () => {
           <br />
           When I beheld him in the desert vast,<br />
           “Have pity on me,” unto him I cried,<br />
-          “Whiche’er thou art, or shade or real man!”<br />
+          “Whiche&apos;er thou art, or shade or real man!”<br />
           <br />
           He answered me: “Not man; man once I was,<br />
           And both my parents were of Lombardy,<br />
@@ -167,7 +167,7 @@ const Canto1 = () => {
           After that Ilion the superb was burned<br />
           <br />
           But thou, why goest thou back to such annoyance?<br />
-          Why climb’st thou not the Mount Delectable<br />
+          Why climb&apos;st thou not the Mount Delectable<br />
           Which is the source and cause of every joy?”
           <br />
           Now, art thou that Virgilius and that fountain<br />
@@ -204,7 +204,7 @@ const Canto1 = () => {
           <br />
           He shall not feed on either earth or pelf,<br />
           But upon wisdom, and on love and virtue;<br />
-          ‘Twixt Feltro and Feltro shall his nation be;<br />
+          &apos;Twixt Feltro and Feltro shall his nation be;<br />
           <br />
           Of that low Italy shall he be the saviour,<br />
           On whose account the maid Camilla died,<br />
@@ -224,7 +224,7 @@ const Canto1 = () => {
           <br />
           And thou shalt see those who contented are<br />
           Within the fire, because they hope to come,<br />
-          Whene’er it may be, to the blessed people;<br />
+          Whene&apos;er it may be, to the blessed people;<br />
           <br />
           To whom, then, if thou wishest to ascend,<br />
           A soul shall be for that than I more worthy;<br />

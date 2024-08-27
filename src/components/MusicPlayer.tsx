@@ -29,6 +29,7 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ onClose }) => {
   const [volume, setVolume] = useState<number>(1);
   const [duration, setDuration] = useState<number>(0);
   const [currentTime, setCurrentTime] = useState<number>(0);
+  const [isMinimized, setIsMinimized] = useState<boolean>(false);
 
   const audioRef = useRef<HTMLAudioElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -146,34 +147,41 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ onClose }) => {
   };
 
   return (
-    <div className={styles.musicPlayer}>
+    <div className={`${styles.musicPlayer} ${isMinimized ? styles.minimized : ''}`}>
       <button className={styles.closeButton} onClick={onClose}>X</button>
+      <button className={styles.minimizeButton} onClick={() => setIsMinimized(!isMinimized)}>
+        {isMinimized ? 'Maximize' : 'Minimize'}
+      </button>
       <img src={tracks[currentTrack].img} alt={tracks[currentTrack].title} className={styles.albumArt} />
       <div className={styles.trackInfo}>
         <h2>{tracks[currentTrack].title}</h2>
         <p>{tracks[currentTrack].artist}</p>
       </div>
-      <div className={styles.controls}>
-        <button onClick={handlePrevTrack}>Previous</button>
-        <button onClick={togglePlayPause}>{isPlaying ? 'Pause' : 'Play'}</button>
-        <button onClick={handleNextTrack}>Next</button>
-      </div>
-      <div className={styles.volumeControl}>
-        <input
-          type="range"
-          min="0"
-          max="1"
-          step="0.01"
-          value={volume}
-          onChange={handleVolumeChange}
-          className={styles.volumeSlider}
-        />
-      </div>
-      <div className={styles.trackProgress}>
-        <span>{formatTime(currentTime)}</span>
-        <span>{formatTime(duration)}</span>
-      </div>
-      <canvas ref={canvasRef} className={styles.spectrum}></canvas>
+      {!isMinimized && (
+        <>
+          <div className={styles.controls}>
+            <button onClick={handlePrevTrack}>Previous</button>
+            <button onClick={togglePlayPause}>{isPlaying ? 'Pause' : 'Play'}</button>
+            <button onClick={handleNextTrack}>Next</button>
+          </div>
+          <div className={styles.volumeControl}>
+            <input
+              type="range"
+              min="0"
+              max="1"
+              step="0.01"
+              value={volume}
+              onChange={handleVolumeChange}
+              className={styles.volumeSlider}
+            />
+          </div>
+          <div className={styles.trackProgress}>
+            <span>{formatTime(currentTime)}</span>
+            <span>{formatTime(duration)}</span>
+          </div>
+          <canvas ref={canvasRef} className={styles.spectrum}></canvas>
+        </>
+      )}
       <audio
         ref={audioRef}
         onTimeUpdate={handleTimeUpdate}
