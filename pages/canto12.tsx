@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 interface IconProps extends React.SVGProps<SVGSVGElement> {}
 
 
-const Canto11 = () => {
+const Canto12 = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const placeholders = [
@@ -48,191 +48,195 @@ const Canto11 = () => {
         </div>
       </div>
       <div className="flex-1 p-4 overflow-auto text-sm font-mono text-red-500"><br />
-      <h2 className="text-xl">Canto 10</h2>
+      <h2 className="text-xl">Canto 12</h2>
 <br />
 <p>
-  NOW onward goes, along a narrow path<br />
-  Between the torments and the city wall,<br />
-  My Master, and I follow at his back.<br />
-  <br />
-  “O power supreme, that through these impious circles<br />
-  Turnest me,” I began, “as pleases thee,<br />
-  Speak to me, and my longings satisfy;<br />
-  <br />
-  The people who are lying in these tombs,<br />
-  Might they be seen? already are uplifted<br />
-  The covers all, and no one keepeth guard.”<br />
-  <br />
-  And he to me: “They all will be closed up<br />
-  When from Jehoshaphat they shall return<br />
-  Here with the bodies they have left above.<br />
-  <br />
-  Their cemetery have upon this side<br />
-  With Epicurus all his followers,<br />
-  Who with the body mortal make the soul;<br />
-  <br />
-  But in the question thou dost put to me,<br />
-  Within here shalt thou soon be satisfied,<br />
-  And likewise in the wish thou keepest silent.”<br />
-  <br />
-  And I: “Good Leader, I but keep concealed<br />
-  From thee my heart, that I may speak the less,<br />
-  Nor only now hast thou thereto disposed me.”<br />
-  <br />
-  “O Tuscan, thou who through the city of fire<br />
-  Goest alive, thus speaking modestly,<br />
-  Be pleased to stay thy footsteps in this place.<br />
-  <br />
-  Thy mode of speaking makes thee manifest<br />
-  A native of that noble fatherland,<br />
-  To which perhaps I too molestful was.”<br />
-  <br />
-  Upon a sudden issued forth this sound<br />
-  From out one of the tombs; wherefore I pressed,<br />
-  Fearing, a little nearer to my Leader.<br />
-  <br />
-  And unto me he said: “Turn thee; what dost thou?<br />
-  Behold there Farinata who has risen;<br />
-  From the waist upwards wholly shalt thou see him.”<br />
-  <br />
-  I had already fixed mine eyes on his,<br />
-  And he uprose erect with breast and front<br />
-  E’en as if Hell he had in great despite.<br />
-  <br />
-  And with courageous hands and prompt my Leader<br />
-  Thrust me between the sepulchres towards him,<br />
-  Exclaiming, “Let thy words explicit be.”<br />
-  <br />
-  As soon as I was at the foot of his tomb<br />
-  Somewhat he eyed me, and, as if disdainful,<br />
-  Then asked of me, “Who were thine ancestors?”<br />
-  <br />
-  I, who desirous of obeying was,<br />
-  Concealed it not, but all revealed to him;<br />
-  Whereat he raised his brows a little upward.<br />
-  <br />
-  Then said he: “Fiercely adverse have they been<br />
-  To me, and to my fathers, and my party;<br />
-  So that two several times I scattered them.”<br />
-  <br />
-  “If they were banished, they returned on all sides,”<br />
-  I answered him, “the first time and the second;<br />
-  But yours have not acquired that art aright.”<br />
-  <br />
-  Then there uprose upon the sight, uncovered<br />
-  Down to the chin, a shadow at his side;<br />
-  I think that he had risen on his knees.<br />
-  <br />
-  Round me he gazed, as if solicitude<br />
-  He had to see if some one else were with me,<br />
-  But after his suspicion was all spent,<br />
-  <br />
-  Weeping, he said to me: “If through this blind<br />
-  Prison thou goest by loftiness of genius,<br />
-  Where is my son? and why is he not with thee?”<br />
-  <br />
-  And I to him: “I come not of myself;<br />
-  He who is waiting yonder leads me here,<br />
-  Whom in disdain perhaps your Guido had.”<br />
-  <br />
-  His language and the mode of punishment<br />
-  Already unto me had read his name;<br />
-  On that account my answer was so full.<br />
-  <br />
-  Up starting suddenly, he cried out: “How<br />
-  Saidst thou,— he had? Is he not still alive?<br />
-  Does not the sweet light strike upon his eyes?”<br />
-  <br />
-  When he became aware of some delay,<br />
-  Which I before my answer made, supine<br />
-  He fell again, and forth appeared no more.<br />
-  <br />
-  But the other, magnanimous, at whose desire<br />
-  I had remained, did not his aspect change,<br />
-  Neither his neck he moved, nor bent his side.<br />
-  <br />
-  “And if,” continuing his first discourse,<br />
-  “They have that art,” he said, “not learned aright,<br />
-  That more tormenteth me, than doth this bed.<br />
-  <br />
-  But fifty times shall not rekindled be<br />
-  The countenance of the Lady who reigns here<br />
-  Ere thou shalt know how heavy is that art;<br />
-  <br />
-  And as thou wouldst to the sweet world return,<br />
-  Say why that people is so pitiless<br />
-  Against my race in each one of its laws?”<br />
-  <br />
-  Whence I to him: “The slaughter and great carnage<br />
-  Which have with crimson stained the Arbia, cause<br />
-  Such orisons in our temple to be made.”<br />
-  <br />
-  After his head he with a sigh had shaken,<br />
-  “There I was not alone,” he said, “nor surely<br />
-  Without a cause had with the others moved.<br />
-  <br />
-  But there I was alone, where every one<br />
-  Consented to the laying waste of Florence,<br />
-  He who defended her with open face.”<br />
-  <br />
-  “Ah! so hereafter may your seed repose,”<br />
-  I him entreated, “solve for me that knot,<br />
-  Which has entangled my conceptions here.<br />
-  <br />
-  It seems that you can see, if I hear rightly,<br />
-  Beforehand whatsoe’er time brings with it,<br />
-  And in the present have another mode.”<br />
-  <br />
-  “We see, like those who have imperfect sight,<br />
-  The things,” he said, “that distant are from us;<br />
-  So much still shines on us the Sovereign Ruler.<br />
-  <br />
-  When they draw near, or are, is wholly vain<br />
-  Our intellect, and if none brings it to us,<br />
-  Not anything know we of your human state.<br />
-  <br />
-  Hence thou canst understand, that wholly dead<br />
-  Will be our knowledge from the moment when<br />
-  The portal of the future shall be closed.”<br />
-  <br />
-  Then I, as if compunctious for my fault,<br />
-  Said: “Now, then, you will tell that fallen one,<br />
-  That still his son is with the living joined.<br />
-  <br />
-  And if just now, in answering, I was dumb,<br />
-  Tell him I did it because I was thinking<br />
-  Already of the error you have solved me.”<br />
-  <br />
-  And now my Master was recalling me,<br />
-  Wherefore more eagerly I prayed the spirit<br />
-  That he would tell me who was with him there.<br />
-  <br />
-  He said: “With more than a thousand here I lie;<br />
-  Within here is the second Frederick,<br />
-  And the Cardinal, and of the rest I speak not.”<br />
-  <br />
-  Thereon he hid himself; and I towards<br />
-  The ancient poet turned my steps, reflecting<br />
-  Upon that saying, which seemed hostile to me.<br />
-  <br />
-  He moved along; and afterward thus going,<br />
-  He said to me, “Why art thou so bewildered?”<br />
-  And I in his inquiry satisfied him.<br />
-  <br />
-  “Let memory preserve what thou hast heard<br />
-  Against thyself, “that Sage commanded me,<br />
-  “And now attend here;” and he raised his finger.<br />
-  <br />
-  “When thou shalt be before the radiance sweet<br />
-  Of her whose beauteous eyes all things behold,<br />
-  From her thou’lt know the journey of thy life.”<br />
-  <br />
-  Unto the left hand then he turned his feet;<br />
-  We left the wall, and went towards the middle,<br />
-  Along a path that strikes into a valley,<br />
-  <br />
-  Which even up there unpleasant made its stench.<br />
-</p>
+    THE place where to descend the bank we came<br />
+    Was alpine, and from what was there, moreover,<br />
+    Of such a kind that every eye would shun it.<br />
+    <br />
+    Such as that ruin is which in the flank<br />
+    Smote, on this side of Trent, the Adige,<br />
+    Either by earthquake or by failing stay,<br />
+    <br />
+    For from the mountain’s top, from which it moved,<br />
+    Unto the plain the cliff is shattered so,<br />
+    Some path ‘twould give to him who was above;<br />
+    <br />
+    Even such was the descent of that ravine,<br />
+    And on the border of the broken chasm<br />
+    The infamy of Crete was stretched along,<br />
+    <br />
+    Who was conceived in the fictitious cow;<br />
+    And when he us beheld, he bit himself,<br />
+    Even as one whom anger racks within.<br />
+    <br />
+    My Sage towards him shouted: “Peradventure<br />
+    Thou think’st that here may be the Duke of Athens,<br />
+    Who in the world above brought death to thee ?<br />
+    <br />
+    Get thee gone, beast, for this one cometh not<br />
+    Instructed by thy sister, but he comes<br />
+    In order to behold your punishments.”<br />
+    <br />
+    As is that bull who breaks loose at the moment<br />
+    In which he has received the mortal blow,<br />
+    Who cannot walk, but staggers here and there,<br />
+    <br />
+    The Minotaur beheld I do the like;<br />
+    And he, the wary, cried: “Run to the passage;<br />
+    While he wroth, ’tis well thou shouldst descend.”<br />
+    <br />
+    Thus down we took our way o’er that discharge<br />
+    Of stones, which oftentimes did move themselves<br />
+    Beneath my feet, from the unwonted burden.<br />
+    <br />
+    Thoughtful I went; and he said: “Thou art thinking<br />
+    Perhaps upon this ruin, which is guarded<br />
+    By that brute anger which just now I quenched.<br />
+    <br />
+    Now will I have thee know, the other time<br />
+    I here descended to the nether Hell,<br />
+    This precipice had not yet fallen down.<br />
+    <br />
+    But truly, if I well discern, a little<br />
+    Before His coming who the mighty spoil<br />
+    Bore off from Dis, in the supernal circle,<br />
+    <br />
+    Upon all sides the deep and loathsome valley<br />
+    Trembled so, that I thought the Universe<br />
+    Was thrilled with love, by which there are who think<br />
+    <br />
+    The world ofttimes converted into chaos;<br />
+    And at that moment this primeval crag<br />
+    Both here and elsewhere made such overthrow.<br />
+    <br />
+    But fix thine eyes below; for draweth near<br />
+    The river of blood, within which boiling is<br />
+    Whoe’er by violence doth injure others.”<br />
+    <br />
+    O blind cupidity, O wrath insane,<br />
+    That spurs us onward so in our short life,<br />
+    And in the eternal then so badly steeps us!<br />
+    <br />
+    I saw an ample moat bent like a bow,<br />
+    As one which all the plain encompasses,<br />
+    Conformable to what my Guide had said.<br />
+    <br />
+    And between this and the embankment’s foot<br />
+    Centaurs in file were running, armed with arrows,<br />
+    As in the world they used the chase to follow.<br />
+    <br />
+    Beholding us descend, each one stood still,<br />
+    And from the squadron three detached themselves,<br />
+    With bows and arrows in advance selected;<br />
+    <br />
+    And from afar one cried: “Unto what torment<br />
+    Come ye, who down the hillside are descending?<br />
+    Tell us from there; if not, I draw the bow.”<br />
+    <br />
+    My Master said: “Our answer will we make<br />
+    To Chiron, near you there; in evil hour,<br />
+    That will of thine was evermore so hasty.”<br />
+    <br />
+    Then touched he me, and said: “This one is Nessus,<br />
+    Who perished for the lovely Dejanira,<br />
+    And for himself, himself did vengeance take.<br />
+    <br />
+    And he in the midst, who at his breast is gazing,<br />
+    Is the great Chiron, who brought up Achilles;<br />
+    That other Pholus is, who was so wrathful.<br />
+    <br />
+    Thousands and thousands go about the moat<br />
+    Shooting with shafts whatever soul emerges<br />
+    Out of the blood, more than his crime allots.”<br />
+    <br />
+    Near we approached unto those monsters fleet;<br />
+    Chiron an arrow took, and with the notch<br />
+    Backward upon his jaws he put his beard.<br />
+    <br />
+    After he had uncovered his great mouth,<br />
+    He said to his companions: “Are you ware<br />
+    That he behind moveth whate’er he touches?<br />
+    <br />
+    Thus are not wont to do the feet of dead men.”<br />
+    And my good Guide, who now was at his breast,<br />
+    Where the two natures are together joined,<br />
+    <br />
+    Replied: “Indeed he lives, and thus alone<br />
+    Me it behoves to show him the dark valley;<br />
+    Necessity, and not delight, impels us.<br />
+    <br />
+    Some one withdrew from singing Halleluja,<br />
+    Who unto me committed this new office;<br />
+    No thief is he, nor I a thievish spirit.<br />
+    <br />
+    But by that virtue through which I am moving<br />
+    My steps along this savage thoroughfare,<br />
+    Give us some one of thine, to be with us,<br />
+    <br />
+    And who may show us where to pass the ford,<br />
+    And who may carry this one on his back;<br />
+    For ’tis no spirit that can walk the air.”<br />
+    <br />
+    Upon his right breast Chiron wheeled about,<br />
+    And said to Nessus: “Turn and do thou guide them,<br />
+    And warn aside, if other band may meet you.”<br />
+    <br />
+    We with our faithful escort onward moved<br />
+    Along the brink of the vermilion boiling,<br />
+    Wherein the boiled were uttering loud laments.<br />
+    <br />
+    People I saw within up to the eyebrows,<br />
+    And the great Centaur said: “Tyrants are these,<br />
+    Who dealt in bloodshed and in pillaging.<br />
+    <br />
+    Here they lament their pitiless mischiefs; here<br />
+    Is Alexander, and fierce Dionysius<br />
+    Who upon Sicily brought dolorous years.<br />
+    <br />
+    That forehead there which has the hair so black<br />
+    Is Azzolin; and the other who is blond,<br />
+    Obizzo is of Esti, who, in truth,<br />
+    <br />
+    Up in the world was by his stepson slain.”<br />
+    Then turned I to the Poet; and he said,<br />
+    “Now he be first to thee, and second I.”<br />
+    <br />
+    A little farther on the Centaur stopped<br />
+    Above a folk, who far down as the throat<br />
+    Seemed from that boiling stream to issue forth.<br />
+    <br />
+    A shade he showed us on one side alone,<br />
+    Saying: “He cleft asunder in God’s bosom<br />
+    The heart that still upon the Thames is honoured.”<br />
+    <br />
+    Then people saw I, who from out the river<br />
+    Lifted their heads and also all the chest;<br />
+    And many among these I recognised.<br />
+    <br />
+    Thus ever more and more grew shallower<br />
+    That blood, so that the feet alone it covered;<br />
+    And there across the moat our passage was.<br />
+    <br />
+    “Even as thou here upon this side beholdest<br />
+    The boiling stream, that aye diminishes,”<br />
+    The Centaur said,”I wish thee to believe<br />
+    <br />
+    That on this other more and more declines<br />
+    Its bed, until it reunites itself<br />
+    Where it behoveth tyranny to groan.<br />
+    <br />
+    Justice divine, upon this side, is goading<br />
+    That Attila, who was a scourge on earth,<br />
+    And Pyrrhus, and Sextus; and for ever milks<br />
+    <br />
+    The tears which with the boiling it unseals<br />
+    In Rinier da Corneto and Rinier Pazzo,<br />
+    Who made upon the highways so much war.”<br />
+    <br />
+    Then back he turned, and passed again the ford.<br />
+  </p>
 
 
 
@@ -258,7 +262,7 @@ const Canto11 = () => {
   );
 };
 
-export default Canto11;
+export default Canto12;
 
 function StickyNoteIcon(props: IconProps) {
   return (

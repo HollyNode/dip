@@ -89,7 +89,7 @@ const Canto5 = () => {
   <br />
   I came into a place mute of all light,<br />
   Which bellows as the sea does in a tempest,<br />
-  If by opposing winds 't is combated.<br />
+  If by opposing winds&apos;t is combated.<br />
   <br />
   The infernal hurricane that never rests<br />
   Hurtles the spirits onward in its rapine;<br />
@@ -151,7 +151,7 @@ const Canto5 = () => {
   Speak would I to those two, who go together,<br />
   And seem upon the wind to be so light.”<br />
   <br />
-  And, he to me: “Thou'lt mark, when they shall be<br />
+  And, he to me: “Thou&apos;lt mark, when they shall be<br />
   Nearer to us; and then do thou implore them<br />
   By love which leadeth them, and they will come.”<br />
   <br />

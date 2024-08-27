@@ -48,192 +48,164 @@ const Canto11 = () => {
         </div>
       </div>
       <div className="flex-1 p-4 overflow-auto text-sm font-mono text-red-500"><br />
-      <h2 className="text-xl">Canto 10</h2>
+      <h2 className="text-xl">Canto 11</h2>
 <br />
-<p>
-  NOW onward goes, along a narrow path<br />
-  Between the torments and the city wall,<br />
-  My Master, and I follow at his back.<br />
-  <br />
-  “O power supreme, that through these impious circles<br />
-  Turnest me,” I began, “as pleases thee,<br />
-  Speak to me, and my longings satisfy;<br />
-  <br />
-  The people who are lying in these tombs,<br />
-  Might they be seen? already are uplifted<br />
-  The covers all, and no one keepeth guard.”<br />
-  <br />
-  And he to me: “They all will be closed up<br />
-  When from Jehoshaphat they shall return<br />
-  Here with the bodies they have left above.<br />
-  <br />
-  Their cemetery have upon this side<br />
-  With Epicurus all his followers,<br />
-  Who with the body mortal make the soul;<br />
-  <br />
-  But in the question thou dost put to me,<br />
-  Within here shalt thou soon be satisfied,<br />
-  And likewise in the wish thou keepest silent.”<br />
-  <br />
-  And I: “Good Leader, I but keep concealed<br />
-  From thee my heart, that I may speak the less,<br />
-  Nor only now hast thou thereto disposed me.”<br />
-  <br />
-  “O Tuscan, thou who through the city of fire<br />
-  Goest alive, thus speaking modestly,<br />
-  Be pleased to stay thy footsteps in this place.<br />
-  <br />
-  Thy mode of speaking makes thee manifest<br />
-  A native of that noble fatherland,<br />
-  To which perhaps I too molestful was.”<br />
-  <br />
-  Upon a sudden issued forth this sound<br />
-  From out one of the tombs; wherefore I pressed,<br />
-  Fearing, a little nearer to my Leader.<br />
-  <br />
-  And unto me he said: “Turn thee; what dost thou?<br />
-  Behold there Farinata who has risen;<br />
-  From the waist upwards wholly shalt thou see him.”<br />
-  <br />
-  I had already fixed mine eyes on his,<br />
-  And he uprose erect with breast and front<br />
-  E’en as if Hell he had in great despite.<br />
-  <br />
-  And with courageous hands and prompt my Leader<br />
-  Thrust me between the sepulchres towards him,<br />
-  Exclaiming, “Let thy words explicit be.”<br />
-  <br />
-  As soon as I was at the foot of his tomb<br />
-  Somewhat he eyed me, and, as if disdainful,<br />
-  Then asked of me, “Who were thine ancestors?”<br />
-  <br />
-  I, who desirous of obeying was,<br />
-  Concealed it not, but all revealed to him;<br />
-  Whereat he raised his brows a little upward.<br />
-  <br />
-  Then said he: “Fiercely adverse have they been<br />
-  To me, and to my fathers, and my party;<br />
-  So that two several times I scattered them.”<br />
-  <br />
-  “If they were banished, they returned on all sides,”<br />
-  I answered him, “the first time and the second;<br />
-  But yours have not acquired that art aright.”<br />
-  <br />
-  Then there uprose upon the sight, uncovered<br />
-  Down to the chin, a shadow at his side;<br />
-  I think that he had risen on his knees.<br />
-  <br />
-  Round me he gazed, as if solicitude<br />
-  He had to see if some one else were with me,<br />
-  But after his suspicion was all spent,<br />
-  <br />
-  Weeping, he said to me: “If through this blind<br />
-  Prison thou goest by loftiness of genius,<br />
-  Where is my son? and why is he not with thee?”<br />
-  <br />
-  And I to him: “I come not of myself;<br />
-  He who is waiting yonder leads me here,<br />
-  Whom in disdain perhaps your Guido had.”<br />
-  <br />
-  His language and the mode of punishment<br />
-  Already unto me had read his name;<br />
-  On that account my answer was so full.<br />
-  <br />
-  Up starting suddenly, he cried out: “How<br />
-  Saidst thou,— he had? Is he not still alive?<br />
-  Does not the sweet light strike upon his eyes?”<br />
-  <br />
-  When he became aware of some delay,<br />
-  Which I before my answer made, supine<br />
-  He fell again, and forth appeared no more.<br />
-  <br />
-  But the other, magnanimous, at whose desire<br />
-  I had remained, did not his aspect change,<br />
-  Neither his neck he moved, nor bent his side.<br />
-  <br />
-  “And if,” continuing his first discourse,<br />
-  “They have that art,” he said, “not learned aright,<br />
-  That more tormenteth me, than doth this bed.<br />
-  <br />
-  But fifty times shall not rekindled be<br />
-  The countenance of the Lady who reigns here<br />
-  Ere thou shalt know how heavy is that art;<br />
-  <br />
-  And as thou wouldst to the sweet world return,<br />
-  Say why that people is so pitiless<br />
-  Against my race in each one of its laws?”<br />
-  <br />
-  Whence I to him: “The slaughter and great carnage<br />
-  Which have with crimson stained the Arbia, cause<br />
-  Such orisons in our temple to be made.”<br />
-  <br />
-  After his head he with a sigh had shaken,<br />
-  “There I was not alone,” he said, “nor surely<br />
-  Without a cause had with the others moved.<br />
-  <br />
-  But there I was alone, where every one<br />
-  Consented to the laying waste of Florence,<br />
-  He who defended her with open face.”<br />
-  <br />
-  “Ah! so hereafter may your seed repose,”<br />
-  I him entreated, “solve for me that knot,<br />
-  Which has entangled my conceptions here.<br />
-  <br />
-  It seems that you can see, if I hear rightly,<br />
-  Beforehand whatsoe’er time brings with it,<br />
-  And in the present have another mode.”<br />
-  <br />
-  “We see, like those who have imperfect sight,<br />
-  The things,” he said, “that distant are from us;<br />
-  So much still shines on us the Sovereign Ruler.<br />
-  <br />
-  When they draw near, or are, is wholly vain<br />
-  Our intellect, and if none brings it to us,<br />
-  Not anything know we of your human state.<br />
-  <br />
-  Hence thou canst understand, that wholly dead<br />
-  Will be our knowledge from the moment when<br />
-  The portal of the future shall be closed.”<br />
-  <br />
-  Then I, as if compunctious for my fault,<br />
-  Said: “Now, then, you will tell that fallen one,<br />
-  That still his son is with the living joined.<br />
-  <br />
-  And if just now, in answering, I was dumb,<br />
-  Tell him I did it because I was thinking<br />
-  Already of the error you have solved me.”<br />
-  <br />
-  And now my Master was recalling me,<br />
-  Wherefore more eagerly I prayed the spirit<br />
-  That he would tell me who was with him there.<br />
-  <br />
-  He said: “With more than a thousand here I lie;<br />
-  Within here is the second Frederick,<br />
-  And the Cardinal, and of the rest I speak not.”<br />
-  <br />
-  Thereon he hid himself; and I towards<br />
-  The ancient poet turned my steps, reflecting<br />
-  Upon that saying, which seemed hostile to me.<br />
-  <br />
-  He moved along; and afterward thus going,<br />
-  He said to me, “Why art thou so bewildered?”<br />
-  And I in his inquiry satisfied him.<br />
-  <br />
-  “Let memory preserve what thou hast heard<br />
-  Against thyself, “that Sage commanded me,<br />
-  “And now attend here;” and he raised his finger.<br />
-  <br />
-  “When thou shalt be before the radiance sweet<br />
-  Of her whose beauteous eyes all things behold,<br />
-  From her thou’lt know the journey of thy life.”<br />
-  <br />
-  Unto the left hand then he turned his feet;<br />
-  We left the wall, and went towards the middle,<br />
-  Along a path that strikes into a valley,<br />
-  <br />
-  Which even up there unpleasant made its stench.<br />
-</p>
-
+`
+  <p>
+    UPON the margin of a lofty bank<br />
+    Which great rocks broken in a circle made,<br />
+    We came upon a still more cruel throng;<br />
+    <br />
+    And there, by reason of the horrible<br />
+    Excess of stench the deep abyss throws out,<br />
+    We drew ourselves aside behind the cover<br />
+    <br />
+    Of a great tomb, whereon I saw a writing,<br />
+    Which said: “Pope Anastasius I hold,<br />
+    Whom out of the right way Photinus drew.”<br />
+    <br />
+    “Slow it behoveth our descent to be,<br />
+    So that the sense be first a little used<br />
+    To the sad blast, and then we shall not heed it.”<br />
+    <br />
+    The Master thus; and unto him I said,<br />
+    “Some compensation find, that the time pass not<br />
+    Idly;” and he: “Thou seest I think of that.<br />
+    <br />
+    My son, upon the inside of these rocks,”<br />
+    Began he then to say, “are three small circles,<br />
+    From grade to grade, like those which thou art leaving<br />
+    <br />
+    They all are full of spirits maledict;<br />
+    But that hereafter sight alone suffice thee,<br />
+    Hear how and wherefore they are in constraint.<br />
+    <br />
+    Of every malice that wins hate in Heaven,<br />
+    Injury is the end; and all such end<br />
+    Either by force or fraud afflicteth others.<br />
+    <br />
+    But because fraud is man’s peculiar vice,<br />
+    More it displeases God; and so stand lowest<br />
+    The fraudulent, and greater dole assails them.<br />
+    <br />
+    All the first circle of the Violent is;<br />
+    But since force may be used against three persons,<br />
+    In three rounds ’tis divided and constructed.<br />
+    <br />
+    To God, to ourselves, and to our neighbour can we<br />
+    Use force; I say on them and on their things,<br />
+    As thou shalt hear with reason manifest.<br />
+    <br />
+    A death by violence, and painful wounds,<br />
+    Are to our neighbour given; and in his substance<br />
+    Ruin, and arson, and injurious levies;<br />
+    <br />
+    Whence homicides, and he who smites unjustly,<br />
+    Marauders, and freebooters, the first round<br />
+    Tormenteth all in companies diverse.<br />
+    <br />
+    Man may lay violent hands upon himself<br />
+    And his own goods; and therefore in the second<br />
+    Round must perforce without avail repent<br />
+    <br />
+    Whoever of your world deprives himself,<br />
+    Who games, and dissipates his property,<br />
+    And weepeth there, where he should jocund be.<br />
+    <br />
+    Violence can be done the Deity,<br />
+    In heart denying and blaspheming Him,<br />
+    And by disdaining Nature and her bounty.<br />
+    <br />
+    And for this reason doth the smallest round<br />
+    Seal with its signet Sodom and Cahors,<br />
+    And who, disdaining God, speaks from the heart.<br />
+    <br />
+    Fraud, wherewithal is every conscience stung,<br />
+    A man may practise upon him who trusts,<br />
+    And him who doth no confidence imburse.<br />
+    <br />
+    This latter mode, it would appear, dissevers<br />
+    Only the bond of love which Nature makes;<br />
+    Wherefore within the second circle nestle<br />
+    <br />
+    Hypocrisy, flattery, and who deals in magic,<br />
+    Falsification, theft, and simony,<br />
+    Panders, and barrators, and the like filth.<br />
+    <br />
+    By the other mode, forgotten is that love<br />
+    Which Nature makes, and what is after added,<br />
+    From which there is a special faith engendered.<br />
+    <br />
+    Hence in the smallest circle, where the point is<br />
+    Of the Universe, upon which Dis is seated,<br />
+    Whoe’er betrays for ever is consumed.”<br />
+    <br />
+    And I: “My Master, clear enough proceeds<br />
+    Thy reasoning, and full well distinguishes<br />
+    This cavern and the people who possess it.<br />
+    <br />
+    But tell me, those within the fat lagoon,<br />
+    Whom the wind drives, and whom the rain doth beat,<br />
+    And who encounter with such bitter tongues,<br />
+    <br />
+    Wherefore are they inside of the red city<br />
+    Not punished, if God has them in his wrath,<br />
+    And if he has not, wherefore in such fashion?”<br />
+    <br />
+    And unto me he said: “Why wanders so<br />
+    Thine intellect from that which it is wont ?<br />
+    Or, sooth, thy mind where is it elsewhere looking ?<br />
+    <br />
+    Hast thou no recollection of those words<br />
+    With which thine Ethics thoroughly discusses<br />
+    The dispositions three, that Heaven abides not,—<br />
+    <br />
+    Incontinence, and Malice, and insane<br />
+    Bestiality ? and how Incontinence<br />
+    Less God offendeth, and less blame attracts?<br />
+    <br />
+    If thou regardest this conclusion well,<br />
+    And to thy mind recallest who they are<br />
+    That up outside are undergoing penance,<br />
+    <br />
+    Clearly wilt thou perceive why from these felons<br />
+    They separated are, and why less wroth<br />
+    Justice divine doth smite them with its hammer.”<br />
+    <br />
+    “O Sun, that healest all distempered vision,<br />
+    Thou dost content me so, when thou resolvest,<br />
+    That doubting pleases me no less than knowing !<br />
+    <br />
+    Once more a little backward turn thee,” said I,<br />
+    “There where thou sayest that usury offends<br />
+    Goodness divine, and disengage the knot.”<br />
+    <br />
+    “Philosophy,” he said, “to him who heeds it,<br />
+    Noteth, not only in one place alone,<br />
+    After what manner Nature takes her course<br />
+    <br />
+    From Intellect Divine, and from its art;<br />
+    And if thy Physics carefully thou notest,<br />
+    After not many pages shalt thou find,<br />
+    <br />
+    That this your art as far as possible<br />
+    Follows, as the disciple doth the master;<br />
+    So that your art is, as it were, God’s grandchild.<br />
+    <br />
+    From these two, if thou bringest to thy mind<br />
+    Genesis at the beginning, it behoves<br />
+    Mankind to gain their life and to advance;<br />
+    <br />
+    And since the usurer takes another way,<br />
+    Nature herself and in her follower<br />
+    Disdains he, for elsewhere he puts his hope.<br />
+    <br />
+    But follow, now, as I would fain go on,<br />
+    For quivering are the Fishes on the horizon,<br />
+    And the Wain wholly over Caurus lies,<br />
+    <br />
+    And far beyond there we descend the crag.<br />
+  </p>
 
 
       </div>

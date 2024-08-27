@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 import MusicPlayer from './MusicPlayer';
+import { PlaceholdersAndVanishInput } from './ui/placeholders-and-vanish-input';
 
 interface TaskBarProps {
   time: Date;
@@ -13,6 +14,23 @@ export const TaskBar: React.FC<TaskBarProps> = ({ time }) => {
 
   const toggleModal = () => setIsModalOpen(!isModalOpen);
 
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    console.log(e.target.value);
+  };
+
+  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    console.log("submitted");
+  };
+
+  const placeholders = [
+    "What canto you find?",
+    "What the deuce is pepe Satan?",
+    "Who were Dante's enemies?",
+    "Are you looking for a concordance?",
+    
+  ];
+
   return (
     <div className="fixed inset-x-0 bottom-0 flex items-center justify-between bg-black text-white h-14 px-4">
       <div className="flex items-center space-x-4">
@@ -24,12 +42,13 @@ export const TaskBar: React.FC<TaskBarProps> = ({ time }) => {
       </div>
 
       <div className="flex-grow mx-10">
-        <input
-          type="search"
-          placeholder="Search..."
-          className="w-1/2 h-10 px-4 bg-dark-gray text-white rounded-full border border-gray-700"
-          style={{ backgroundColor: '#333', borderRadius: '15px' }}
+        <PlaceholdersAndVanishInput
+          placeholders={placeholders}
+          onChange={handleChange}
+          onSubmit={onSubmit}
+         
         />
+        
       </div>
 
       <div className="flex items-center space-x-4">

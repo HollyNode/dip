@@ -66,63 +66,63 @@ const Canto6 = () => {
   Then I, to learn what punishment they bore,<br />
   Stood still, and thus I heard the tempest voice:<br />
   <br />
-  "Upon the left-hand bank, I stand alone,<br />
+  &quot;Upon the left-hand bank, I stand alone,<br />
   A solitary rock, and here I hold<br />
   The standard of the people I betrayed.<br />
   <br />
   The path is full of stones, and when I see<br />
   The people pass by on the other side,<br />
-  I shout aloud, 'Remember how I stood!'<br />
+  I shout aloud, &#39;Remember how I stood!&#39;<br />
   <br />
   The people turn, and with a scornful look,<br />
-  They shout back at me, 'Traitor, thou shalt die!'<br />
+  They shout back at me, &#39;Traitor, thou shalt die!&#39;<br />
   And then they pass, and I am left alone<br />
   <br />
   To weep and wail, until the end of time.<br />
   But, when the wind is blowing from the south,<br />
   I hear a voice, which seems to come from far:<br />
   <br />
-  'O wretched soul, that art so full of woe,<br />
+  &#39;O wretched soul, that art so full of woe,<br />
   Know that thy punishment shall never end,<br />
-  For thou shalt never be forgiven.'<br />
+  For thou shalt never be forgiven.&#39;<br />
   <br />
   Then I, to learn what punishment they bore,<br />
   Stood still, and thus I heard the tempest voice:<br />
   <br />
-  "Upon the left-hand bank, I stand alone,<br />
+  &quot;Upon the left-hand bank, I stand alone,<br />
   A solitary rock, and here I hold<br />
   The standard of the people I betrayed.<br />
   <br />
   The path is full of stones, and when I see<br />
   The people pass by on the other side,<br />
-  I shout aloud, 'Remember how I stood!'<br />
+  I shout aloud, &#39;Remember how I stood!&#39;<br />
   <br />
   The people turn, and with a scornful look,<br />
-  They shout back at me, 'Traitor, thou shalt die!'<br />
+  They shout back at me, &#39;Traitor, thou shalt die!&#39;<br />
   And then they pass, and I am left alone<br />
   <br />
   To weep and wail, until the end of time.<br />
   But, when the wind is blowing from the south,<br />
   I hear a voice, which seems to come from far:<br />
   <br />
-  'O wretched soul, that art so full of woe,<br />
+  &#39;O wretched soul, that art so full of woe,<br />
   Know that thy punishment shall never end,<br />
-  For thou shalt never be forgiven.'<br />
+  For thou shalt never be forgiven.&#39;<br />
   <br />
   And I, who was still full of wonderment,<br />
   To see what manner of men they were,<br />
   And what their fate might be, drew near to them,<br />
   <br />
   And spoke to one who seemed to be their chief:<br />
-  "O thou, who standest on the left-hand bank,<br />
+  &quot;O thou, who standest on the left-hand bank,<br />
   And holdest the standard of the people,<br />
   <br />
   Tell me, I pray thee, who are these people,<br />
   And what their fate may be, that they should wail<br />
-  And weep, and beat their breasts, and rend their hair?"<br />
+  And weep, and beat their breasts, and rend their hair?&quot;<br />
   <br />
   Then he, who seemed to be their chief, replied:<br />
-  "We are the souls of those who have betrayed<br />
+  &quot;We are the souls of those who have betrayed<br />
   Their friends, and brought them to destruction.<br />
   <br />
   For this, we are condemned to wander here,<br />
@@ -131,46 +131,46 @@ const Canto6 = () => {
   <br />
   And when the wind is blowing from the south,<br />
   We hear a voice, which seems to come from far:<br />
-  'O wretched soul, that art so full of woe,<br />
+  &#39;O wretched soul, that art so full of woe,<br />
   Know that thy punishment shall never end,<br />
-  For thou shalt never be forgiven.'"<br />
+  For thou shalt never be forgiven.&#39;&quot;<br />
   <br />
   Then I, to learn what punishment they bore,<br />
   Stood still, and thus I heard the tempest voice:<br />
-  "Upon the left-hand bank, I stand alone,<br />
+  &quot;Upon the left-hand bank, I stand alone,<br />
   A solitary rock, and here I hold<br />
   The standard of the people I betrayed.<br />
   <br />
   The path is full of stones, and when I see<br />
   The people pass by on the other side,<br />
-  I shout aloud, 'Remember how I stood!'<br />
+  I shout aloud, &#39;Remember how I stood!&#39;<br />
   <br />
   The people turn, and with a scornful look,<br />
-  They shout back at me, 'Traitor, thou shalt die!'<br />
+  They shout back at me, &#39;Traitor, thou shalt die!&#39;<br />
   And then they pass, and I am left alone<br />
   <br />
   To weep and wail, until the end of time.<br />
   But, when the wind is blowing from the south,<br />
   I hear a voice, which seems to come from far:<br />
   <br />
-  'O wretched soul, that art so full of woe,<br />
+  &#39;O wretched soul, that art so full of woe,<br />
   Know that thy punishment shall never end,<br />
-  For thou shalt never be forgiven.'"<br />
+  For thou shalt never be forgiven.&#39;&quot;<br />
   <br />
   And I, who was still full of wonderment,<br />
   To see what manner of men they were,<br />
   And what their fate might be, drew near to them,<br />
   <br />
   And spoke to one who seemed to be their chief:<br />
-  "O thou, who standest on the left-hand bank,<br />
+  &quot;O thou, who standest on the left-hand bank,<br />
   And holdest the standard of the people,<br />
   <br />
   Tell me, I pray thee, who are these people,<br />
   And what their fate may be, that they should wail<br />
-  And weep, and beat their breasts, and rend their hair?"<br />
+  And weep, and beat their breasts, and rend their hair?&quot;<br />
   <br />
   Then he, who seemed to be their chief, replied:<br />
-  "We are the souls of those who have betrayed<br />
+  &quot;We are the souls of those who have betrayed<br />
   Their friends, and brought them to destruction.<br />
   <br />
   For this, we are condemned to wander here,<br />
@@ -179,46 +179,46 @@ const Canto6 = () => {
   <br />
   And when the wind is blowing from the south,<br />
   We hear a voice, which seems to come from far:<br />
-  'O wretched soul, that art so full of woe,<br />
+  &#39;O wretched soul, that art so full of woe,<br />
   Know that thy punishment shall never end,<br />
-  For thou shalt never be forgiven.'"<br />
+  For thou shalt never be forgiven.&#39;&quot;<br />
   <br />
   Then I, to learn what punishment they bore,<br />
   Stood still, and thus I heard the tempest voice:<br />
-  "Upon the left-hand bank, I stand alone,<br />
+  &quot;Upon the left-hand bank, I stand alone,<br />
   A solitary rock, and here I hold<br />
   The standard of the people I betrayed.<br />
   <br />
   The path is full of stones, and when I see<br />
   The people pass by on the other side,<br />
-  I shout aloud, 'Remember how I stood!'<br />
+  I shout aloud, &#39;Remember how I stood!&#39;<br />
   <br />
   The people turn, and with a scornful look,<br />
-  They shout back at me, 'Traitor, thou shalt die!'<br />
+  They shout back at me, &#39;Traitor, thou shalt die!&#39;<br />
   And then they pass, and I am left alone<br />
   <br />
   To weep and wail, until the end of time.<br />
   But, when the wind is blowing from the south,<br />
   I hear a voice, which seems to come from far:<br />
   <br />
-  'O wretched soul, that art so full of woe,<br />
+  &#39;O wretched soul, that art so full of woe,<br />
   Know that thy punishment shall never end,<br />
-  For thou shalt never be forgiven.'"<br />
+  For thou shalt never be forgiven.&#39;&quot;<br />
   <br />
   And I, who was still full of wonderment,<br />
   To see what manner of men they were,<br />
   And what their fate might be, drew near to them,<br />
   <br />
   And spoke to one who seemed to be their chief:<br />
-  "O thou, who standest on the left-hand bank,<br />
+  &quot;O thou, who standest on the left-hand bank,<br />
   And holdest the standard of the people,<br />
   <br />
   Tell me, I pray thee, who are these people,<br />
   And what their fate may be, that they should wail<br />
-  And weep, and beat their breasts, and rend their hair?"<br />
+  And weep, and beat their breasts, and rend their hair?&quot;<br />
   <br />
   Then he, who seemed to be their chief, replied:<br />
-  "We are the souls of those who have betrayed<br />
+  &quot;We are the souls of those who have betrayed<br />
   Their friends, and brought them to destruction.<br />
   <br />
   For this, we are condemned to wander here,<br />
@@ -227,11 +227,10 @@ const Canto6 = () => {
   <br />
   And when the wind is blowing from the south,<br />
   We hear a voice, which seems to come from far:<br />
-  'O wretched soul, that art so full of woe,<br />
+  &#39;O wretched soul, that art so full of woe,<br />
   Know that thy punishment shall never end,<br />
-  For thou shalt never be forgiven.'"<br />
+  For thou shalt never be forgiven.&#39;&quot;<br />
 </p>
-
 
       </div>
     </div>

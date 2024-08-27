@@ -79,12 +79,12 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ onClose }) => {
 
   const handlePrevTrack = (): void => {
     setCurrentTrack((prev) => (prev === 0 ? tracks.length - 1 : prev - 1));
-    setIsPlaying(true);
+    setIsPlaying(true); // Automatically play the previous track
   };
 
   const handleNextTrack = (): void => {
     setCurrentTrack((prev) => (prev === tracks.length - 1 ? 0 : prev + 1));
-    setIsPlaying(true);
+    setIsPlaying(true); // Automatically play the next track
   };
 
   const handleVolumeChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
@@ -178,7 +178,7 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ onClose }) => {
         ref={audioRef}
         onTimeUpdate={handleTimeUpdate}
         onLoadedMetadata={handleLoadedMetadata}
-        onEnded={handleNextTrack}
+        onEnded={handleNextTrack} // Automatically play the next track when the current one ends
       ></audio>
     </div>
   );

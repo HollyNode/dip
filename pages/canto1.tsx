@@ -6,6 +6,7 @@ interface IconProps extends React.SVGProps<SVGSVGElement> {}
 
 const Canto1 = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [scrollProgress, setScrollProgress] = useState(0);
 
   const placeholders = [
     { text: 'Wallpapers', img: '/ds-folder.png' },
@@ -22,16 +23,29 @@ const Canto1 = () => {
     return () => handleBodyScroll(false);
   }, [isModalOpen]);
 
+  const handleScroll = (event: React.UIEvent<HTMLDivElement>) => {
+    const { scrollTop, scrollHeight, clientHeight } = event.currentTarget;
+    const totalScroll = scrollHeight - clientHeight;
+    const scrollPercentage = (scrollTop / totalScroll) * 100;
+    setScrollProgress(scrollPercentage);
+  };
+
   const notepadStyle: React.CSSProperties = {
     maxHeight: '90vh',
     overflowY: 'auto',
   };
 
   const Notepad = () => (
-    <div className="flex flex-col h-full bg-gray-800" style={notepadStyle}>
-      <div className="flex items-center p-2 border-b bg-gray-700">
-        <div className="flex items-center space-x-2 ">
-          <StickyNoteIcon className="h-5 w-5 " />
+    <div className="flex flex-col h-full bg-gray-800" style={notepadStyle} onScroll={handleScroll}>
+      <div className="fixed top-0 left-0 w-full bg-gray-900 h-1 z-50">
+        <div
+          className="bg-blue-500 h-full"
+          style={{ width: `${scrollProgress}%` }}
+        ></div>
+      </div>
+      <div className="flex items-center p-2 border-b bg-gray-700 z-40">
+        <div className="flex items-center space-x-2">
+          <StickyNoteIcon className="h-5 w-5" />
           <span className="text-sm font-semibold text-white">Notepad</span>
         </div>
         <div className="ml-auto flex space-x-2">
@@ -48,7 +62,7 @@ const Canto1 = () => {
           </Button>
         </div>
       </div>
-      <div className="flex-1 p-4 overflow-auto text-sm font-mono text-red-500">
+      <div className="flex-1 p-4 overflow-auto text-sm font-mono text-red-500 z-30">
         <h2 className="text-xl">Canto 1</h2>
         <br />
         <p>
@@ -233,7 +247,7 @@ const Canto1 = () => {
           And those thou makest so disconsolate.”<br />
           <br />
           Then he moved on, and I behind him followed.
-        </p>
+          </p>
       </div>
     </div>
   );
