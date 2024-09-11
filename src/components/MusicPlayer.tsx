@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import styles from '../styles/MusicPlayer.module.css';
 
 interface Track {
@@ -39,7 +39,7 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ onClose }) => {
   const analyserRef = useRef<AnalyserNode | null>(null);
   const sourceRef = useRef<MediaElementAudioSourceNode | null>(null);
 
-  useEffect(() => {
+  const initializeAudioContext = useCallback(() => {
     if (!audioContextRef.current) {
       const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
       const analyser = audioContext.createAnalyser();
@@ -54,10 +54,23 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ onClose }) => {
       analyserRef.current!.connect(audioContextRef.current!.destination);
       sourceRef.current = source;
     }
+  }, []);
 
+  useEffect(() => {
+    initializeAudioContext();
+    return () => {
+      if (audioContextRef.current) {
+        audioContextRef.current.close();
+      }
+    };
+  }, [initializeAudioContext]);
+
+  useEffect(() => {
+    const audio = audioRef.current;
     if (audio) {
       audio.src = tracks[currentTrack].src;
       audio.load();
+      if (isPlaying) audio.play();
     }
   }, [currentTrack]);
 
@@ -76,53 +89,53 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ onClose }) => {
     }
   }, [isPlaying]);
 
-  const togglePlayPause = (): void => setIsPlaying(!isPlaying);
+  const togglePlayPause = useCallback((): void => setIsPlaying(prev => !prev), []);
 
-  const handlePrevTrack = (): void => {
-    setCurrentTrack((prev) => (prev === 0 ? tracks.length - 1 : prev - 1));
-    setIsPlaying(true); // Automatically play the previous track
-  };
+  const handlePrevTrack = useCallback((): void => {
+    setCurrentTrack(prev => (prev === 0 ? tracks.length - 1 : prev - 1));
+    setIsPlaying(true);
+  }, []);
 
-  const handleNextTrack = (): void => {
-    setCurrentTrack((prev) => (prev === tracks.length - 1 ? 0 : prev + 1));
-    setIsPlaying(true); // Automatically play the next track
-  };
+  const handleNextTrack = useCallback((): void => {
+    setCurrentTrack(prev => (prev === tracks.length - 1 ? 0 : prev + 1));
+    setIsPlaying(true);
+  }, []);
 
-  const handleVolumeChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
+  const handleVolumeChange = useCallback((e: React.ChangeEvent<HTMLInputElement>): void => {
     const newVolume = parseFloat(e.target.value);
     setVolume(newVolume);
     if (audioRef.current) {
       audioRef.current.volume = newVolume;
     }
-  };
+  }, []);
 
-  const handleTimeUpdate = (): void => {
+  const handleTimeUpdate = useCallback((): void => {
     if (audioRef.current) {
       setCurrentTime(audioRef.current.currentTime);
     }
-  };
+  }, []);
 
-  const handleLoadedMetadata = (): void => {
+  const handleLoadedMetadata = useCallback((): void => {
     if (audioRef.current) {
       setDuration(audioRef.current.duration);
     }
-  };
+  }, []);
 
-  const formatTime = (time: number): string => {
+  const formatTime = useCallback((time: number): string => {
     const minutes = Math.floor(time / 60);
     const seconds = Math.floor(time % 60);
     return `${minutes}:${seconds.toString().padStart(2, '0')}`;
-  };
+  }, []);
 
-  const updateSpectrum = (): void => {
+  const updateSpectrum = useCallback((): void => {
     const audio = audioRef.current;
     const canvas = canvasRef.current;
-    if (!audio || !canvas) return;
+    if (!audio || !canvas || !analyserRef.current) return;
 
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
-    const analyser = analyserRef.current!;
+    const analyser = analyserRef.current;
     const bufferLength = analyser.frequencyBinCount;
     const dataArray = new Uint8Array(bufferLength);
 
@@ -144,12 +157,16 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ onClose }) => {
     };
 
     draw();
-  };
+  }, []);
+
+  const toggleMinimize = useCallback((): void => {
+    setIsMinimized(prev => !prev);
+  }, []);
 
   return (
     <div className={`${styles.musicPlayer} ${isMinimized ? styles.minimized : ''}`}>
       <button className={styles.closeButton} onClick={onClose}>X</button>
-      <button className={styles.minimizeButton} onClick={() => setIsMinimized(!isMinimized)}>
+      <button className={styles.minimizeButton} onClick={toggleMinimize}>
         {isMinimized ? 'Maximize' : 'Minimize'}
       </button>
       <img src={tracks[currentTrack].img} alt={tracks[currentTrack].title} className={styles.albumArt} />
@@ -186,7 +203,7 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ onClose }) => {
         ref={audioRef}
         onTimeUpdate={handleTimeUpdate}
         onLoadedMetadata={handleLoadedMetadata}
-        onEnded={handleNextTrack} // Automatically play the next track when the current one ends
+        onEnded={handleNextTrack}
       ></audio>
     </div>
   );

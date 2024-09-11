@@ -13,6 +13,7 @@ import Heresy from "@/components/Heresy";
 import Violence from "@/components/Violence";
 import Fraud from "@/components/Fraud";
 import Treachery from "@/components/Treachery";
+import ResponsiveTitle from '@/components/ResponsiveTitle';
 
 // Import other components as needed
 
@@ -138,9 +139,7 @@ export default function Home() {
                 </Modal>
             )}
 
-<div className="absolute bottom-20 sm:bottom-10 md:bottom-20 lg:bottom-40 xl:bottom-60 left-1/2 transform -translate-x-1/2 md:left-auto md:right-10 text-6xl font-bold text-white text-center md:text-left" style={{ fontFamily: 'Times New Roman, Times, serif' }}>
-    <span className="text-red-500">DANTE&apos;S</span> <span className="text-red-700">INFERNO</span>
-</div>
+        <ResponsiveTitle />
         </div>
     );
 }

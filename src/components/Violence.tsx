@@ -4,12 +4,12 @@ import { DesktopIcon } from '@/components/DesktopIcon'; // Import the DesktopIco
 import { LinkPreview } from '@/components/ui/link-preview';
 
 const circlesOfHell = [
-  { name: 'Lust', imgSrc: '/images/lust-sm-icon.png', link: '/lust', color: 'red-900' },
-  { name: 'Gluttony', imgSrc: '/images/gluttony-sm-icon.png', link: '/gluttony', color: 'red-800' },
-  { name: 'Greed', imgSrc: '/images/greed-sm-icon.png', link: '/greed', color: 'red-700' },
-  { name: 'Wrath', imgSrc: '/images/wrath-sm-icon.png', link: '/wrath', color: 'red-600' },
-  { name: 'Heresy', imgSrc: '/images/heresy-sm-icon.png', link: '/heresy', color: 'red-500' },
-  { name: 'Violence', imgSrc: '/images/violence-sm-icon.png', link: '/violence', color: 'red-400' },
+  { name: 'Lust', imgSrc: '/images/lust-sm-icon.png', link: '/canto5', color: 'red-900' },
+  { name: 'Gluttony', imgSrc: '/images/gluttony-sm-icon.png', link: '/canto6', color: 'red-800' },
+  { name: 'Greed', imgSrc: '/images/greed-sm-icon.png', link: '/canto7', color: 'red-700' },
+  { name: 'Wrath', imgSrc: '/images/wrath-sm-icon.png', link: '/canto8', color: 'red-600' },
+  { name: 'Heresy', imgSrc: '/images/heresy-sm-icon.png', link: '/canto10', color: 'red-500' },
+  { name: 'Violence', imgSrc: '/images/violence-sm-icon.png', link: '/canto11', color: 'red-400' },
   { name: 'Fraud', imgSrc: '/images/fraud-sm-icon.png', link: '/fraud', color: 'blue-600' },
   { name: 'Treachery', imgSrc: '/images/treachery-sm-icon.png', link: '/treachery', color: 'blue-500' },
 ];

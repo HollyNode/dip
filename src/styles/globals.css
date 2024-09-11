@@ -246,3 +246,38 @@ button {
     padding: 10px;
   }
 }
+
+
+/* In your global CSS file */
+.histocracy-scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.histocracy-scrollbar::-webkit-scrollbar-track {
+  background: #2a0a0a;
+}
+
+.histocracy-scrollbar::-webkit-scrollbar-thumb {
+  background: #8b0000;
+}
+
+.histocracy-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #a00000;
+}
+
+.text-shadow {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateY(20px);
+}

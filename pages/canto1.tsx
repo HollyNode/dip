@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import Modal from '@/components/Modal';
 import { Button } from "@/components/ui/button";
 
@@ -6,34 +6,286 @@ interface IconProps extends React.SVGProps<SVGSVGElement> {}
 
 const Canto1 = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isHistocracyMode, setIsHistocracyMode] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
+  const histocracyContentRef = useRef<HTMLDivElement>(null);
+  const ticking = useRef(false);
+
 
   const placeholders = [
     { text: 'Wallpapers', img: '/ds-folder.png' },
     { text: 'Text', img: '/ds-text.png', action: () => setIsModalOpen(true) },
+    { text: 'Histocracy Mode', img: '/histocracy-icon.png', action: () => setIsHistocracyMode(true) },
   ];
 
+  const handleScroll = useCallback(() => {
+    if (!ticking.current) {
+      requestAnimationFrame(() => {
+        if (histocracyContentRef.current) {
+          const { scrollTop, scrollHeight, clientHeight } = histocracyContentRef.current;
+          const totalScroll = scrollHeight - clientHeight;
+          const scrollPercentage = (scrollTop / totalScroll) * 100;
+          setScrollProgress(scrollPercentage);
+
+          const paragraphs = histocracyContentRef.current.getElementsByTagName('p');
+          const fadeInStart = window.innerHeight / 2;
+
+          Array.from(paragraphs).forEach((p) => {
+            const rect = p.getBoundingClientRect();
+            if (rect.top < fadeInStart && rect.bottom > 0) {
+              p.classList.add('fade-in');
+              p.classList.remove('fade-out');
+            } else {
+              p.classList.add('fade-out');
+              p.classList.remove('fade-in');
+            }
+          });
+        }
+        ticking.current = false;
+      });
+      ticking.current = true;
+    }
+  }, []);
+
   useEffect(() => {
-    const handleBodyScroll = (isOpen: boolean) => {
-      document.body.style.overflow = isOpen ? 'hidden' : 'visible';
+    const currentRef = histocracyContentRef.current;
+    if (currentRef) {
+      currentRef.addEventListener('scroll', handleScroll);
+    }
+    return () => {
+      if (currentRef) {
+        currentRef.removeEventListener('scroll', handleScroll);
+      }
     };
+  }, [handleScroll]);
 
-    handleBodyScroll(isModalOpen);
-
-    return () => handleBodyScroll(false);
-  }, [isModalOpen]);
-
-  const handleScroll = (event: React.UIEvent<HTMLDivElement>) => {
-    const { scrollTop, scrollHeight, clientHeight } = event.currentTarget;
-    const totalScroll = scrollHeight - clientHeight;
-    const scrollPercentage = (scrollTop / totalScroll) * 100;
-    setScrollProgress(scrollPercentage);
-  };
 
   const notepadStyle: React.CSSProperties = {
     maxHeight: '90vh',
     overflowY: 'auto',
   };
+
+  const histocracyStyle: React.CSSProperties = {
+    ...notepadStyle,
+    backgroundColor: '#1a0a0a',
+    color: '#ffffff',
+    fontFamily: "'MedievalSharp', cursive",
+    padding: '20px',
+    position: 'relative',
+  };
+
+  const HistocracyContent = () => (
+    <div 
+      ref={histocracyContentRef} 
+      className="histocracy-scrollbar absolute inset-0 overflow-y-auto"
+      style={{
+        ...histocracyStyle,
+        height: 'auto',
+        minHeight: '100%',
+        paddingTop: '60px',
+        paddingBottom: '60px',
+      }}
+    >
+      <div className="sticky top-0 left-0 w-full bg-gray-900 h-1 z-50">
+        <div
+          className="bg-red-700 h-full"
+          style={{ width: `${scrollProgress}%` }}
+        ></div>
+      </div>
+      <h2 className="text-3xl text-red-600 sticky top-4 left-4 z-50">Canto 1</h2>
+      <div className="space-y-8 text-xl">
+        <p>MIDWAY upon the journey of our life 🌳<br />
+        I found myself within a forest dark, 🌚<br />
+        For the straightforward pathway had been lost. 🌀</p>
+
+        <p>Ah me! how hard a thing it is to say 😓<br />
+        What was this forest savage, rough, and stern, 🐺<br />
+        Which in the very thought renews the fear. 😱</p>
+
+        <p>So bitter is it, death is little more; ☠️<br />
+      But of the good to treat, which there I found, 🌟<br />
+      Speak will I of the other things I saw there. 👀</p>
+
+      <p>I cannot well repeat how there I entered, 🚪<br />
+      So full was I of slumber at the moment 😴<br />
+      In which I had abandoned the true way. ❌</p>
+
+      <p>But after I had reached a mountain&apos;s foot, 🏔️<br />
+      At that point where the valley terminated, 🏞️<br />
+      Which had with consternation pierced my heart, 💔</p>
+
+      <p>Upward I looked, and I beheld its shoulders 👀<br />
+      Vested already with that planet&apos;s rays ☀️<br />
+      Which leadeth others right by every road. 🛤️</p>
+
+      <p>Then was the fear a little quieted 😌<br />
+      That in my heart&apos;s lake had endured throughout 💖<br />
+      The night, which I had passed so piteously 🌙</p>
+
+      <p>And even as he, who, with distressful breath, 😰<br />
+      Forth issued from the sea upon the shore, 🌊<br />
+      Turns to the water perilous and gazes; 👁️</p>
+
+      <p>So did my soul, that still was fleeing onward, 🏃<br />
+      Turn itself back to re-behold the pass 👀<br />
+      Which never yet a living person left. 🚫</p>
+
+      <p>After my weary body I had rested, 💤<br />
+      The way resumed I on the desert slope, 🏜️<br />
+      So that the firm foot ever was the lower. 👣</p>
+
+      <p>And lo! almost where the ascent began, 🏞️<br />
+      A panther light and swift exceedingly, 🐆<br />
+      Which with a spotted skin was covered o&apos;er!</p>
+
+      <p>And never moved she from before my face, 😨<br />
+      Nay, rather did impede so much my way, 🚫<br />
+      That many times I to return had turned.</p>
+
+      <p>The time was the beginning of the morning, 🌅<br />
+      And up the sun was mounting with those stars ☀️✨<br />
+      That with him were, what time the Love Divine</p>
+
+      <p>At first in motion set those beauteous things; 🌠<br />
+      So were to me occasion of good hope, 🙏<br />
+      The variegated skin of that wild beast,</p>
+
+      <p>The hour of time, and the delicious season; 🕰️🌸<br />
+      But not so much, that did not give me fear 😰<br />
+      A lion&apos;s aspect which appeared to me. 🦁</p>
+
+      <p>He seemed as if against me he were coming 🐾<br />
+      With head uplifted, and with ravenous hunger, 🍖<br />
+      So that it seemed the air was afraid of him; 💨</p>
+
+      <p>And a she-wolf, that with all hungerings 🐺<br />
+      Seemed to be laden in her meagreness, 💀<br />
+      And many folk has caused to live forlorn!</p>
+
+      <p>She brought upon me so much heaviness, 😔<br />
+      With the affright that from her aspect came, 😱<br />
+      That I the hope relinquished of the height. 🏔️</p>
+
+      <p>And as he is who willingly acquires, 💰<br />
+      And the time comes that causes him to lose, 📉<br />
+      Who weeps in all his thoughts and is despondent,</p>
+
+      <p>E&apos;en such made me that beast withouten peace, 🌪️<br />
+      Which, coming on against me by degrees 🐾<br />
+      Thrust me back thither where the sun is silent 🌑</p>
+
+      <p>While I was rushing downward to the lowland, 🏃‍♂️<br />
+      Before mine eyes did one present himself, 👤<br />
+      Who seemed from long-continued silence hoarse.</p>
+
+      <p>When I beheld him in the desert vast, 🏜️<br />
+      "Have pity on me," unto him I cried, 🗣️<br />
+      "Whiche&apos;er thou art, or shade or real man!"</p>
+
+      <p>He answered me: "Not man; man once I was, 👻<br />
+      And both my parents were of Lombardy, 🇮🇹<br />
+      And Mantuans by country both of them.</p>
+
+      <p>Sub Julio was I born, though it was late, ⏳<br />
+      And lived at Rome under the good Augustus, 🏛️<br />
+      During the time of false and lying gods.</p>
+
+      <p>A poet was I, and I sang that just 📜<br />
+      Son of Anchises, who came forth from Troy, 🏴‍☠️<br />
+      After that Ilion the superb was burned</p>
+
+      <p>But thou, why goest thou back to such annoyance? 🤔<br />
+      Why climb&apos;st thou not the Mount Delectable 🏔️<br />
+      Which is the source and cause of every joy?"</p>
+
+      <p>Now, art thou that Virgilius and that fountain 🧙‍♂️<br />
+      Which spreads abroad so wide a river of speech?" 🌊<br />
+      I made response to him with bashful forehead.</p>
+
+      <p>"O, of the other poets honour and light, 🏆<br />
+      Avail me the long study and great love 📚❤️<br />
+      That have impelled me to explore thy volume!</p>
+
+      <p>Thou art my master, and my author thou, 🎓<br />
+      Thou art alone the one from whom I took 🖋️<br />
+      The beautiful style that has done honour to me.</p>
+
+      <p>Behold the beast, for which I have turned back; 🐺<br />
+      Do thou protect me from her, famous Sage, 🛡️<br />
+      For she doth make my veins and pulses tremble."</p>
+
+      <p>"Thee it behoves to take another road," 🛣️<br />
+      Responded he, when he beheld me weeping, 😢<br />
+      "If from this savage place thou wouldst escape;</p>
+
+      <p>Because this beast, at which thou criest out, 🐺<br />
+      Suffers not any one to pass her way, 🚫<br />
+      But so doth harass him, that she destroys him;</p>
+
+      <p>And has a nature so malign and ruthless, 😈<br />
+      That never doth she glut her greedy will, 🍖<br />
+      And after food is hungrier than before.</p>
+
+      <p>Many the animals with whom she weds, 🐾<br />
+      And more they shall be still, until the Greyhound 🐕<br />
+      Comes, who shall make her perish in her pain.</p>
+
+      <p>He shall not feed on either earth or pelf, 🌍💰<br />
+      But upon wisdom, and on love and virtue; 📚❤️✨<br />
+      &apos;Twixt Feltro and Feltro shall his nation be;</p>
+
+      <p>Of that low Italy shall he be the saviour, 🇮🇹<br />
+      On whose account the maid Camilla died, ⚔️<br />
+      Euryalus, Turnus, Nisus, of their wounds;</p>
+
+      <p>Through every city shall he hunt her down, 🏙️<br />
+      Until he shall have driven her back to Hell, 🔥<br />
+      There from whence envy first did let her loose.</p>
+
+      <p>Therefore I think and judge it for thy best 🤔<br />
+      Thou follow me, and I will be thy guide, 🧭<br />
+      And lead thee hence through the eternal place,</p>
+
+      <p>Where thou shalt hear the desperate lamentations, 😭<br />
+      Shalt see the ancient spirits disconsolate, 👻<br />
+      Who cry out each one for the second death;</p>
+
+      <p>And thou shalt see those who contented are 😌<br />
+      Within the fire, because they hope to come, 🔥<br />
+      Whene&apos;er it may be, to the blessed people;</p>
+
+      <p>To whom, then, if thou wishest to ascend, 🚀<br />
+      A soul shall be for that than I more worthy; 👼<br />
+      With her at my departure I will leave thee;</p>
+
+      <p>Because that Emperor, who reigns above, 👑<br />
+      In that I was rebellious to his law, ⚖️<br />
+      Wills that through me none come into his city.</p>
+
+      <p>He governs everywhere and there he reigns; 🌌<br />
+      There is his city and his lofty throne; 🏛️<br />
+      O happy he whom thereto he elects!"</p>
+
+      <p>And I to him: "Poet, I thee entreat, 🙏<br />
+      By that same God whom thou didst never know, ✝️<br />
+      So that I may escape this woe and worse,</p>
+
+      <p>Thou wouldst conduct me there where thou hast said, 🚶‍♂️<br />
+      That I may see the portal of Saint Peter, 🚪<br />
+      And those thou makest so disconsolate."</p>
+
+      <p>Then he moved on, and I behind him followed. 🚶‍♂️🚶‍♂️</p>
+
+        {/* Add more paragraphs with emojis here */}
+      </div>
+      <button 
+        className="fixed bottom-4 right-4 bg-red-600 text-white px-4 py-2 rounded-full z-50"
+        onClick={() => setIsHistocracyMode(false)}
+      >
+        Exit Histocracy Mode
+      </button>
+    </div>
+  );
 
   const Notepad = () => (
     <div className="flex flex-col h-full bg-gray-800" style={notepadStyle} onScroll={handleScroll}>
@@ -266,6 +518,11 @@ const Canto1 = () => {
       <Modal isOpen={isModalOpen} closeModal={() => setIsModalOpen(false)}>
         <Notepad />
       </Modal>
+      {isHistocracyMode && (
+        <div className="fixed inset-0 z-50 overflow-auto">
+          <HistocracyContent />
+        </div>
+      )}
     </div>
   );
 };
