@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Image from 'next/image';
 import Modal from '@/components/Modal';
 
 const Canto15 = () => {
@@ -23,11 +24,15 @@ const Canto15 = () => {
             className="flex flex-col items-center m-4 transition duration-300 transform hover:scale-110 cursor-pointer"
             onClick={placeholder.action}
           >
-            <img
-              src={placeholder.img}
-              alt={placeholder.text}
-              className="w-full max-w-xs h-auto" 
-            />
+            <div className="relative w-full max-w-xs h-48">
+              <Image
+                src={placeholder.img}
+                alt={placeholder.text}
+                fill
+                className="object-contain"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
+            </div>
             <div className="mt-2 text-white text-center">{placeholder.text}</div>
           </div>
         ))}

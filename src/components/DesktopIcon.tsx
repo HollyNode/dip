@@ -1,6 +1,7 @@
 // DesktopIcon.tsx
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface DesktopIconProps {
   name: string;
@@ -15,7 +16,15 @@ export const DesktopIcon: React.FC<DesktopIconProps> = ({ name, imgSrc, link, on
       className="flex flex-col items-center justify-center bg-gray-800 rounded-lg shadow-md cursor-pointer hover:bg-gray-700 transition-colors duration-300"
       onClick={onClick}
     >
-      <img src={imgSrc} alt={name} className="w-16 h-16" />
+      <div className="relative w-16 h-16">
+        <Image
+          src={imgSrc}
+          alt={name}
+          fill
+          className="object-contain"
+          sizes="64px"
+        />
+      </div>
       <span className="mt-2 text-sm text-gray-300">{name}</span>
     </div>
   );

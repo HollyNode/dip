@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
+import Image from 'next/image';
 import Modal from '@/components/Modal';
 import { Button } from "@/components/ui/button";
 
@@ -15,7 +16,7 @@ const Canto1 = () => {
   const placeholders = [
     { text: 'Wallpapers', img: '/ds-folder.png' },
     { text: 'Text', img: '/ds-text.png', action: () => setIsModalOpen(true) },
-    { text: 'Histocracy Mode', img: '/histocracy-icon.png', action: () => setIsHistocracyMode(true) },
+    { text: 'Histocracy Mode', img: '/images/Asset34.png', action: () => setIsHistocracyMode(true) },
   ];
 
   const handleScroll = useCallback(() => {
@@ -179,10 +180,10 @@ const Canto1 = () => {
       Who seemed from long-continued silence hoarse.</p>
 
       <p>When I beheld him in the desert vast, 🏜️<br />
-      "Have pity on me," unto him I cried, 🗣️<br />
-      "Whiche&apos;er thou art, or shade or real man!"</p>
+      &quot;Have pity on me,&quot; unto him I cried, 🗣️<br />
+      &quot;Whiche&apos;er thou art, or shade or real man!&quot;</p>
 
-      <p>He answered me: "Not man; man once I was, 👻<br />
+      <p>He answered me: &quot;Not man; man once I was, 👻<br />
       And both my parents were of Lombardy, 🇮🇹<br />
       And Mantuans by country both of them.</p>
 
@@ -196,13 +197,13 @@ const Canto1 = () => {
 
       <p>But thou, why goest thou back to such annoyance? 🤔<br />
       Why climb&apos;st thou not the Mount Delectable 🏔️<br />
-      Which is the source and cause of every joy?"</p>
+      Which is the source and cause of every joy?&quot;</p>
 
       <p>Now, art thou that Virgilius and that fountain 🧙‍♂️<br />
-      Which spreads abroad so wide a river of speech?" 🌊<br />
+      Which spreads abroad so wide a river of speech?&quot; 🌊<br />
       I made response to him with bashful forehead.</p>
 
-      <p>"O, of the other poets honour and light, 🏆<br />
+      <p>&quot;O, of the other poets honour and light, 🏆<br />
       Avail me the long study and great love 📚❤️<br />
       That have impelled me to explore thy volume!</p>
 
@@ -212,11 +213,11 @@ const Canto1 = () => {
 
       <p>Behold the beast, for which I have turned back; 🐺<br />
       Do thou protect me from her, famous Sage, 🛡️<br />
-      For she doth make my veins and pulses tremble."</p>
+      For she doth make my veins and pulses tremble.&quot;</p>
 
-      <p>"Thee it behoves to take another road," 🛣️<br />
+      <p>&quot;Thee it behoves to take another road,&quot; 🛣️<br />
       Responded he, when he beheld me weeping, 😢<br />
-      "If from this savage place thou wouldst escape;</p>
+      &quot;If from this savage place thou wouldst escape;</p>
 
       <p>Because this beast, at which thou criest out, 🐺<br />
       Suffers not any one to pass her way, 🚫<br />
@@ -264,15 +265,15 @@ const Canto1 = () => {
 
       <p>He governs everywhere and there he reigns; 🌌<br />
       There is his city and his lofty throne; 🏛️<br />
-      O happy he whom thereto he elects!"</p>
+      O happy he whom thereto he elects!&quot;</p>
 
-      <p>And I to him: "Poet, I thee entreat, 🙏<br />
+      <p>And I to him: &quot;Poet, I thee entreat, 🙏<br />
       By that same God whom thou didst never know, ✝️<br />
       So that I may escape this woe and worse,</p>
 
       <p>Thou wouldst conduct me there where thou hast said, 🚶‍♂️<br />
       That I may see the portal of Saint Peter, 🚪<br />
-      And those thou makest so disconsolate."</p>
+      And those thou makest so disconsolate.&quot;</p>
 
       <p>Then he moved on, and I behind him followed. 🚶‍♂️🚶‍♂️</p>
 
@@ -510,7 +511,15 @@ const Canto1 = () => {
       <div className="relative flex justify-center items-center h-full overflow-hidden">
         {placeholders.map((placeholder, index) => (
           <div key={index} className="flex flex-col items-center m-4 transition duration-300 transform hover:scale-110 cursor-pointer" onClick={placeholder.action}>
-            <img src={placeholder.img} alt={placeholder.text} className="w-full max-w-xs h-auto" />
+            <div className="relative w-full max-w-xs h-48">
+              <Image
+                src={placeholder.img}
+                alt={placeholder.text}
+                fill
+                className="object-contain"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
+            </div>
             <div className="mt-2 text-white text-center">{placeholder.text}</div>
           </div>
         ))}

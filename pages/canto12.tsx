@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import Modal from '@/components/Modal';
 import { Button } from "@/components/ui/button";
 
@@ -250,7 +251,15 @@ const Canto12 = () => {
       <div className="relative flex justify-center items-center h-full overflow-hidden">
         {placeholders.map((placeholder, index) => (
           <div key={index} className="flex flex-col items-center m-4 transition duration-300 transform hover:scale-110 cursor-pointer" onClick={placeholder.action}>
-            <img src={placeholder.img} alt={placeholder.text} className="w-full max-w-xs h-auto" /> 
+            <div className="relative w-full max-w-xs h-48">
+              <Image
+                src={placeholder.img}
+                alt={placeholder.text}
+                fill
+                className="object-contain"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
+            </div> 
             <div className="mt-2 text-white text-center">{placeholder.text}</div>
           </div>
         ))}

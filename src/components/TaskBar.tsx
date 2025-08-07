@@ -57,7 +57,7 @@ export const TaskBar: React.FC<TaskBarProps> = ({ time }) => {
       <div className="flex items-center space-x-4">
         <div
           className="w-8 h-8 rounded-full cursor-pointer transition-transform transform hover:scale-110"
-          style={{ backgroundImage: `url(/images/Asset24.png)`, backgroundSize: 'cover' }}
+          style={{ backgroundImage: `url(/images/Asset34.png)`, backgroundSize: 'cover' }}
         ></div>
         <div className="w-8 h-8 bg-gray-700 rounded-full"></div>
         <div

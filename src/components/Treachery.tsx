@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { DesktopIcon } from '@/components/DesktopIcon'; // Import the DesktopIcon component if needed
 import { LinkPreview } from '@/components/ui/link-preview';
 
@@ -33,12 +34,30 @@ const Limbo = () => {
         <div className="flex flex-col items-center md:items-start mb-4">
           <Link href="/">
             <div className="text-white mb-2 flex items-center transition-transform duration-200 transform hover:scale-105 cursor-pointer">
-              <img src="/images/home-sm-icon.png" alt="Home Icon" className="mr-2" /> Home
+              <div className="relative w-6 h-6 mr-2">
+                <Image
+                  src="/images/home-sm-icon.png"
+                  alt="Home Icon"
+                  fill
+                  className="object-contain"
+                  sizes="24px"
+                />
+              </div>
+              Home
             </div>
           </Link>
           <Link href="/gallery">
             <div className="text-gray-400 mb-2 flex items-center transition-transform duration-200 transform hover:scale-105 cursor-pointer">
-              <img src="/images/gallery-sm-icon.png" alt="Gallery Icon" className="mr-2" /> Gallery
+              <div className="relative w-6 h-6 mr-2">
+                <Image
+                  src="/images/gallery-sm-icon.png"
+                  alt="Gallery Icon"
+                  fill
+                  className="object-contain"
+                  sizes="24px"
+                />
+              </div>
+              Gallery
             </div>
           </Link>
           {/* Other navigation items */}
@@ -48,7 +67,16 @@ const Limbo = () => {
           {circlesOfHell.map(circle => (
             <Link key={circle.name} href={circle.link}>
               <div className={`text-${circle.color} mb-2 flex items-center transition-transform duration-200 transform hover:scale-105 cursor-pointer`}>
-                <img src={circle.imgSrc} alt={`${circle.name} Icon`} className="mr-2" /> {circle.name}
+                <div className="relative w-6 h-6 mr-2">
+                  <Image
+                    src={circle.imgSrc}
+                    alt={`${circle.name} Icon`}
+                    fill
+                    className="object-contain"
+                    sizes="24px"
+                  />
+                </div>
+                {circle.name}
               </div>
             </Link>
           ))}

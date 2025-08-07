@@ -37,7 +37,7 @@ const SearchPage = () => {
         background: 'radial-gradient(circle, #1a1a1a, #000000)',
       }}
     >
-      <h1 className="text-3xl font-bold mb-4 text-center text-white">Search Results for "{query}"</h1>
+      <h1 className="text-3xl font-bold mb-4 text-center text-white">Search Results for &quot;{query}&quot;</h1>
       {searchResults.length > 0 ? (
         <ul className="w-full max-w-2xl">
           {searchResults.map((result, index) => (
